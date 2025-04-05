@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLIDapp.Domain", "SOLIDapp.Domain\SOLIDapp.Domain.csproj", "{F2F6ABD8-7C2D-4D2C-9A2C-7F9F373DC59F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLIDapp.Tests", "SOLIDapp.Tests\SOLIDapp.Tests.csproj", "{3D14D077-BCD6-4788-A24E-B8BBC2FF0979}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2F6ABD8-7C2D-4D2C-9A2C-7F9F373DC59F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2F6ABD8-7C2D-4D2C-9A2C-7F9F373DC59F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2F6ABD8-7C2D-4D2C-9A2C-7F9F373DC59F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2F6ABD8-7C2D-4D2C-9A2C-7F9F373DC59F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D14D077-BCD6-4788-A24E-B8BBC2FF0979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D14D077-BCD6-4788-A24E-B8BBC2FF0979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D14D077-BCD6-4788-A24E-B8BBC2FF0979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D14D077-BCD6-4788-A24E-B8BBC2FF0979}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

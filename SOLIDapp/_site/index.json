@@ -1,0 +1,197 @@
+{
+  "api/SOLIDapp.Domain.Class1.html": {
+    "href": "api/SOLIDapp.Domain.Class1.html",
+    "title": "Class Class1",
+    "summary": "Class Class1 Namespace SOLIDapp.Domain Assembly SOLIDapp.Domain.dll public class Class1 Inheritance object Class1 Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+  },
+  "api/SOLIDapp.Domain.WithOutPrinciple.Account.html": {
+    "href": "api/SOLIDapp.Domain.WithOutPrinciple.Account.html",
+    "title": "Class Account",
+    "summary": "Class Account Namespace SOLIDapp.Domain.WithOutPrinciple Assembly SOLIDapp.Domain.dll Clase de dominio que representa una cuenta Bancaria public class Account Inheritance object Account Derived FixedTermDepositAccount Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields balance protected double balance Field Value double Methods Deposit(double) public virtual void Deposit(double amount) Parameters amount double GetBalance() public double GetBalance() Returns double Withdraw(double) public virtual void Withdraw(double amount) Parameters amount double"
+  },
+  "api/SOLIDapp.Domain.WithOutPrinciple.BankAccount.html": {
+    "href": "api/SOLIDapp.Domain.WithOutPrinciple.BankAccount.html",
+    "title": "Class BankAccount",
+    "summary": "Class BankAccount Namespace SOLIDapp.Domain.WithOutPrinciple Assembly SOLIDapp.Domain.dll Clase de dominio que representa una cuenta Bancaria public class BankAccount Inheritance object BankAccount Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors BankAccount(int) public BankAccount(int accountNumber) Parameters accountNumber int Properties AccountNumber public int AccountNumber { get; } Property Value int Balance Propiedad que representa el saldo de una cuenta public double Balance { get; } Property Value double Tipo double Methods Deposit(double) Metodo que solo ejecuta un deposito en la cuenta para un determinado monto public void Deposit(double amount) Parameters amount double Representa el monto que sera depositado PrintStatement() public string PrintStatement() Returns string Withdraw(double) public void Withdraw(double amount) Parameters amount double"
+  },
+  "api/SOLIDapp.Domain.WithOutPrinciple.CreditCard.html": {
+    "href": "api/SOLIDapp.Domain.WithOutPrinciple.CreditCard.html",
+    "title": "Class CreditCard",
+    "summary": "Class CreditCard Namespace SOLIDapp.Domain.WithOutPrinciple Assembly SOLIDapp.Domain.dll public class CreditCard Inheritance object CreditCard Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods ProcessPayment(decimal) public string ProcessPayment(decimal amount) Parameters amount decimal Returns string"
+  },
+  "api/SOLIDapp.Domain.WithOutPrinciple.FixedTermDepositAccount.html": {
+    "href": "api/SOLIDapp.Domain.WithOutPrinciple.FixedTermDepositAccount.html",
+    "title": "Class FixedTermDepositAccount",
+    "summary": "Class FixedTermDepositAccount Namespace SOLIDapp.Domain.WithOutPrinciple Assembly SOLIDapp.Domain.dll public class FixedTermDepositAccount : Account Inheritance object Account FixedTermDepositAccount Inherited Members Account.balance Account.Deposit(double) Account.GetBalance() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Withdraw(double) public override void Withdraw(double amount) Parameters amount double"
+  },
+  "api/SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.html": {
+    "href": "api/SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.html",
+    "title": "Interface IDocumentManagement",
+    "summary": "Interface IDocumentManagement Namespace SOLIDapp.Domain.WithOutPrinciple Assembly SOLIDapp.Domain.dll public interface IDocumentManagement Methods CreateDocument(string) void CreateDocument(string content) Parameters content string DeleteDocument(int) void DeleteDocument(int id) Parameters id int ReadDocument(int) string ReadDocument(int id) Parameters id int Returns string UpdateDocument(int, string) void UpdateDocument(int id, string content) Parameters id int content string"
+  },
+  "api/SOLIDapp.Domain.WithOutPrinciple.Invoice.html": {
+    "href": "api/SOLIDapp.Domain.WithOutPrinciple.Invoice.html",
+    "title": "Class Invoice",
+    "summary": "Class Invoice Namespace SOLIDapp.Domain.WithOutPrinciple Assembly SOLIDapp.Domain.dll public class Invoice Inheritance object Invoice Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GetInvoiceDiscount(double, InvoiceType) public double GetInvoiceDiscount(double amount, InvoiceType invoiceType) Parameters amount double invoiceType InvoiceType Returns double"
+  },
+  "api/SOLIDapp.Domain.WithOutPrinciple.InvoiceType.html": {
+    "href": "api/SOLIDapp.Domain.WithOutPrinciple.InvoiceType.html",
+    "title": "Enum InvoiceType",
+    "summary": "Enum InvoiceType Namespace SOLIDapp.Domain.WithOutPrinciple Assembly SOLIDapp.Domain.dll public enum InvoiceType Fields FinalInvoice = 0 ProposedInvoice = 1"
+  },
+  "api/SOLIDapp.Domain.WithOutPrinciple.PaymentProcessor.html": {
+    "href": "api/SOLIDapp.Domain.WithOutPrinciple.PaymentProcessor.html",
+    "title": "Class PaymentProcessor",
+    "summary": "Class PaymentProcessor Namespace SOLIDapp.Domain.WithOutPrinciple Assembly SOLIDapp.Domain.dll public class PaymentProcessor Inheritance object PaymentProcessor Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods ExecutePayment(decimal) public string ExecutePayment(decimal amount) Parameters amount decimal Returns string"
+  },
+  "api/SOLIDapp.Domain.WithOutPrinciple.ReadOnlyUser.html": {
+    "href": "api/SOLIDapp.Domain.WithOutPrinciple.ReadOnlyUser.html",
+    "title": "Class ReadOnlyUser",
+    "summary": "Class ReadOnlyUser Namespace SOLIDapp.Domain.WithOutPrinciple Assembly SOLIDapp.Domain.dll public class ReadOnlyUser : IDocumentManagement Inheritance object ReadOnlyUser Implements IDocumentManagement Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods CreateDocument(string) public void CreateDocument(string content) Parameters content string DeleteDocument(int) public void DeleteDocument(int id) Parameters id int ReadDocument(int) public string ReadDocument(int id) Parameters id int Returns string UpdateDocument(int, string) public void UpdateDocument(int id, string content) Parameters id int content string"
+  },
+  "api/SOLIDapp.Domain.WithOutPrinciple.html": {
+    "href": "api/SOLIDapp.Domain.WithOutPrinciple.html",
+    "title": "Namespace SOLIDapp.Domain.WithOutPrinciple",
+    "summary": "Namespace SOLIDapp.Domain.WithOutPrinciple Classes Account Clase de dominio que representa una cuenta Bancaria BankAccount Clase de dominio que representa una cuenta Bancaria CreditCard FixedTermDepositAccount Invoice PaymentProcessor ReadOnlyUser Interfaces IDocumentManagement Enums InvoiceType"
+  },
+  "api/SOLIDapp.Domain.WithPrinciple.Account.html": {
+    "href": "api/SOLIDapp.Domain.WithPrinciple.Account.html",
+    "title": "Class Account",
+    "summary": "Class Account Namespace SOLIDapp.Domain.WithPrinciple Assembly SOLIDapp.Domain.dll Clase de dominio que representa una cuenta Bancaria public abstract class Account Inheritance object Account Derived FixedTermDepositAccount RegularAccount Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields Transactions public List<string> Transactions Field Value List<string> balance protected double balance Field Value double Methods Deposit(double) public virtual void Deposit(double amount) Parameters amount double GetBalance() public double GetBalance() Returns double Withdraw(double) public abstract void Withdraw(double amount) Parameters amount double"
+  },
+  "api/SOLIDapp.Domain.WithPrinciple.AdminUser.html": {
+    "href": "api/SOLIDapp.Domain.WithPrinciple.AdminUser.html",
+    "title": "Class AdminUser",
+    "summary": "Class AdminUser Namespace SOLIDapp.Domain.WithPrinciple Assembly SOLIDapp.Domain.dll public class AdminUser : ICreateDocument, IReadDocument, IUpdateDocument, IDeleteDocument Inheritance object AdminUser Implements ICreateDocument IReadDocument IUpdateDocument IDeleteDocument Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods CreateDocument(string) public void CreateDocument(string content) Parameters content string DeleteDocument(int) public void DeleteDocument(int id) Parameters id int ReadDocument(int) public string ReadDocument(int id) Parameters id int Returns string UpdateDocument(int, string) public void UpdateDocument(int id, string content) Parameters id int content string"
+  },
+  "api/SOLIDapp.Domain.WithPrinciple.BankAccount.html": {
+    "href": "api/SOLIDapp.Domain.WithPrinciple.BankAccount.html",
+    "title": "Class BankAccount",
+    "summary": "Class BankAccount Namespace SOLIDapp.Domain.WithPrinciple Assembly SOLIDapp.Domain.dll public class BankAccount Inheritance object BankAccount Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors BankAccount(int) public BankAccount(int accountNumber) Parameters accountNumber int Fields Transactions public List<string> Transactions Field Value List<string> Properties AccountNumber public int AccountNumber { get; } Property Value int Balance public double Balance { get; } Property Value double Methods Deposit(double) public void Deposit(double amount) Parameters amount double Withdraw(double) public void Withdraw(double amount) Parameters amount double"
+  },
+  "api/SOLIDapp.Domain.WithPrinciple.CreditCard.html": {
+    "href": "api/SOLIDapp.Domain.WithPrinciple.CreditCard.html",
+    "title": "Class CreditCard",
+    "summary": "Class CreditCard Namespace SOLIDapp.Domain.WithPrinciple Assembly SOLIDapp.Domain.dll public class CreditCard : IPaymentMethod Inheritance object CreditCard Implements IPaymentMethod Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods ProcessPayment(decimal) public string ProcessPayment(decimal amount) Parameters amount decimal Returns string"
+  },
+  "api/SOLIDapp.Domain.WithPrinciple.FinalInvoice.html": {
+    "href": "api/SOLIDapp.Domain.WithPrinciple.FinalInvoice.html",
+    "title": "Class FinalInvoice",
+    "summary": "Class FinalInvoice Namespace SOLIDapp.Domain.WithPrinciple Assembly SOLIDapp.Domain.dll public class FinalInvoice : Invoice Inheritance object Invoice FinalInvoice Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GetInvoiceDiscount(double) public override double GetInvoiceDiscount(double amount) Parameters amount double Returns double"
+  },
+  "api/SOLIDapp.Domain.WithPrinciple.FixedTermDepositAccount.html": {
+    "href": "api/SOLIDapp.Domain.WithPrinciple.FixedTermDepositAccount.html",
+    "title": "Class FixedTermDepositAccount",
+    "summary": "Class FixedTermDepositAccount Namespace SOLIDapp.Domain.WithPrinciple Assembly SOLIDapp.Domain.dll public class FixedTermDepositAccount : Account Inheritance object Account FixedTermDepositAccount Inherited Members Account.balance Account.Transactions Account.Deposit(double) Account.GetBalance() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Withdraw(double) public override void Withdraw(double amount) Parameters amount double"
+  },
+  "api/SOLIDapp.Domain.WithPrinciple.ICreateDocument.html": {
+    "href": "api/SOLIDapp.Domain.WithPrinciple.ICreateDocument.html",
+    "title": "Interface ICreateDocument",
+    "summary": "Interface ICreateDocument Namespace SOLIDapp.Domain.WithPrinciple Assembly SOLIDapp.Domain.dll public interface ICreateDocument Methods CreateDocument(string) void CreateDocument(string content) Parameters content string"
+  },
+  "api/SOLIDapp.Domain.WithPrinciple.IDeleteDocument.html": {
+    "href": "api/SOLIDapp.Domain.WithPrinciple.IDeleteDocument.html",
+    "title": "Interface IDeleteDocument",
+    "summary": "Interface IDeleteDocument Namespace SOLIDapp.Domain.WithPrinciple Assembly SOLIDapp.Domain.dll public interface IDeleteDocument Methods DeleteDocument(int) void DeleteDocument(int id) Parameters id int"
+  },
+  "api/SOLIDapp.Domain.WithPrinciple.IPaymentMethod.html": {
+    "href": "api/SOLIDapp.Domain.WithPrinciple.IPaymentMethod.html",
+    "title": "Interface IPaymentMethod",
+    "summary": "Interface IPaymentMethod Namespace SOLIDapp.Domain.WithPrinciple Assembly SOLIDapp.Domain.dll public interface IPaymentMethod Methods ProcessPayment(decimal) string ProcessPayment(decimal amount) Parameters amount decimal Returns string"
+  },
+  "api/SOLIDapp.Domain.WithPrinciple.IReadDocument.html": {
+    "href": "api/SOLIDapp.Domain.WithPrinciple.IReadDocument.html",
+    "title": "Interface IReadDocument",
+    "summary": "Interface IReadDocument Namespace SOLIDapp.Domain.WithPrinciple Assembly SOLIDapp.Domain.dll public interface IReadDocument Methods ReadDocument(int) string ReadDocument(int id) Parameters id int Returns string"
+  },
+  "api/SOLIDapp.Domain.WithPrinciple.IUpdateDocument.html": {
+    "href": "api/SOLIDapp.Domain.WithPrinciple.IUpdateDocument.html",
+    "title": "Interface IUpdateDocument",
+    "summary": "Interface IUpdateDocument Namespace SOLIDapp.Domain.WithPrinciple Assembly SOLIDapp.Domain.dll public interface IUpdateDocument Methods UpdateDocument(int, string) void UpdateDocument(int id, string content) Parameters id int content string"
+  },
+  "api/SOLIDapp.Domain.WithPrinciple.Invoice.html": {
+    "href": "api/SOLIDapp.Domain.WithPrinciple.Invoice.html",
+    "title": "Class Invoice",
+    "summary": "Class Invoice Namespace SOLIDapp.Domain.WithPrinciple Assembly SOLIDapp.Domain.dll public class Invoice Inheritance object Invoice Derived FinalInvoice ProposedInvoice RecurringInvoice Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GetInvoiceDiscount(double) public virtual double GetInvoiceDiscount(double amount) Parameters amount double Returns double"
+  },
+  "api/SOLIDapp.Domain.WithPrinciple.PayPal.html": {
+    "href": "api/SOLIDapp.Domain.WithPrinciple.PayPal.html",
+    "title": "Class PayPal",
+    "summary": "Class PayPal Namespace SOLIDapp.Domain.WithPrinciple Assembly SOLIDapp.Domain.dll public class PayPal : IPaymentMethod Inheritance object PayPal Implements IPaymentMethod Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods ProcessPayment(decimal) public string ProcessPayment(decimal amount) Parameters amount decimal Returns string"
+  },
+  "api/SOLIDapp.Domain.WithPrinciple.PaymentProcessor.html": {
+    "href": "api/SOLIDapp.Domain.WithPrinciple.PaymentProcessor.html",
+    "title": "Class PaymentProcessor",
+    "summary": "Class PaymentProcessor Namespace SOLIDapp.Domain.WithPrinciple Assembly SOLIDapp.Domain.dll public class PaymentProcessor Inheritance object PaymentProcessor Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors PaymentProcessor(IPaymentMethod) public PaymentProcessor(IPaymentMethod paymentMethod) Parameters paymentMethod IPaymentMethod Methods ExecutePayment(decimal) public string ExecutePayment(decimal amount) Parameters amount decimal Returns string"
+  },
+  "api/SOLIDapp.Domain.WithPrinciple.ProposedInvoice.html": {
+    "href": "api/SOLIDapp.Domain.WithPrinciple.ProposedInvoice.html",
+    "title": "Class ProposedInvoice",
+    "summary": "Class ProposedInvoice Namespace SOLIDapp.Domain.WithPrinciple Assembly SOLIDapp.Domain.dll public class ProposedInvoice : Invoice Inheritance object Invoice ProposedInvoice Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GetInvoiceDiscount(double) public override double GetInvoiceDiscount(double amount) Parameters amount double Returns double"
+  },
+  "api/SOLIDapp.Domain.WithPrinciple.ReadOnlyUser.html": {
+    "href": "api/SOLIDapp.Domain.WithPrinciple.ReadOnlyUser.html",
+    "title": "Class ReadOnlyUser",
+    "summary": "Class ReadOnlyUser Namespace SOLIDapp.Domain.WithPrinciple Assembly SOLIDapp.Domain.dll public class ReadOnlyUser : IReadDocument Inheritance object ReadOnlyUser Implements IReadDocument Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods ReadDocument(int) public string ReadDocument(int id) Parameters id int Returns string"
+  },
+  "api/SOLIDapp.Domain.WithPrinciple.RecurringInvoice.html": {
+    "href": "api/SOLIDapp.Domain.WithPrinciple.RecurringInvoice.html",
+    "title": "Class RecurringInvoice",
+    "summary": "Class RecurringInvoice Namespace SOLIDapp.Domain.WithPrinciple Assembly SOLIDapp.Domain.dll public class RecurringInvoice : Invoice Inheritance object Invoice RecurringInvoice Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GetInvoiceDiscount(double) public override double GetInvoiceDiscount(double amount) Parameters amount double Returns double"
+  },
+  "api/SOLIDapp.Domain.WithPrinciple.RegularAccount.html": {
+    "href": "api/SOLIDapp.Domain.WithPrinciple.RegularAccount.html",
+    "title": "Class RegularAccount",
+    "summary": "Class RegularAccount Namespace SOLIDapp.Domain.WithPrinciple Assembly SOLIDapp.Domain.dll public class RegularAccount : Account Inheritance object Account RegularAccount Inherited Members Account.balance Account.Transactions Account.Deposit(double) Account.GetBalance() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Withdraw(double) public override void Withdraw(double amount) Parameters amount double"
+  },
+  "api/SOLIDapp.Domain.WithPrinciple.StatementPrinter.html": {
+    "href": "api/SOLIDapp.Domain.WithPrinciple.StatementPrinter.html",
+    "title": "Class StatementPrinter",
+    "summary": "Class StatementPrinter Namespace SOLIDapp.Domain.WithPrinciple Assembly SOLIDapp.Domain.dll public class StatementPrinter Inheritance object StatementPrinter Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Print(BankAccount) public string Print(BankAccount account) Parameters account BankAccount Returns string"
+  },
+  "api/SOLIDapp.Domain.WithPrinciple.html": {
+    "href": "api/SOLIDapp.Domain.WithPrinciple.html",
+    "title": "Namespace SOLIDapp.Domain.WithPrinciple",
+    "summary": "Namespace SOLIDapp.Domain.WithPrinciple Classes Account Clase de dominio que representa una cuenta Bancaria AdminUser BankAccount CreditCard FinalInvoice FixedTermDepositAccount Invoice PayPal PaymentProcessor ProposedInvoice ReadOnlyUser RecurringInvoice RegularAccount StatementPrinter Interfaces ICreateDocument IDeleteDocument IPaymentMethod IReadDocument IUpdateDocument"
+  },
+  "api/SOLIDapp.Domain.html": {
+    "href": "api/SOLIDapp.Domain.html",
+    "title": "Namespace SOLIDapp.Domain",
+    "summary": "Namespace SOLIDapp.Domain Classes Class1"
+  },
+  "api/SOLIDapp.Tests.UnitTest1.html": {
+    "href": "api/SOLIDapp.Tests.UnitTest1.html",
+    "title": "Class UnitTest1",
+    "summary": "Class UnitTest1 Namespace SOLIDapp.Tests Assembly SOLIDapp.Tests.dll [TestClass] public class UnitTest1 Inheritance object UnitTest1 Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods TestMethod1() [TestMethod] public void TestMethod1()"
+  },
+  "api/SOLIDapp.Tests.WithOutPrinciples.html": {
+    "href": "api/SOLIDapp.Tests.WithOutPrinciples.html",
+    "title": "Class WithOutPrinciples",
+    "summary": "Class WithOutPrinciples Namespace SOLIDapp.Tests Assembly SOLIDapp.Tests.dll [TestClass] public class WithOutPrinciples Inheritance object WithOutPrinciples Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GivenDependencyInversionPrincipleExample_ExecuteWithOutPrinciple_ResultSuccess() [TestMethod] public void GivenDependencyInversionPrincipleExample_ExecuteWithOutPrinciple_ResultSuccess() GivenInterfaceSegregationPrincipleExample_ExecuteWithOutPrinciple_ResultSuccess() [TestMethod] public void GivenInterfaceSegregationPrincipleExample_ExecuteWithOutPrinciple_ResultSuccess() GivenLiskovSustitutionPrincipleExample_ExecuteWithOutPrinciple_ResultSuccess() [TestMethod] public void GivenLiskovSustitutionPrincipleExample_ExecuteWithOutPrinciple_ResultSuccess() GivenOpenClosedPrincipleExample_ExecuteWithOutPrinciple_ResultSuccess() [TestMethod] public void GivenOpenClosedPrincipleExample_ExecuteWithOutPrinciple_ResultSuccess() GivenSimpleResponsabilityPrincipleExample_ExecuteWithOutPrinciple_ResultSuccess() [TestMethod] public void GivenSimpleResponsabilityPrincipleExample_ExecuteWithOutPrinciple_ResultSuccess()"
+  },
+  "api/SOLIDapp.Tests.WithPrinciples.html": {
+    "href": "api/SOLIDapp.Tests.WithPrinciples.html",
+    "title": "Class WithPrinciples",
+    "summary": "Class WithPrinciples Namespace SOLIDapp.Tests Assembly SOLIDapp.Tests.dll [TestClass] public class WithPrinciples Inheritance object WithPrinciples Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GivenDependencyInversionPrincipleExample_ExecuteWithPrinciple_ResultSuccess() [TestMethod] public void GivenDependencyInversionPrincipleExample_ExecuteWithPrinciple_ResultSuccess() GivenInterfaceSegregationPrincipleExample_ExecuteWithPrinciple_ResultSuccess() [TestMethod] public void GivenInterfaceSegregationPrincipleExample_ExecuteWithPrinciple_ResultSuccess() GivenLiskovSustitutionPrincipleExample_ExecuteWithPrinciple_ResultSuccess() [TestMethod] public void GivenLiskovSustitutionPrincipleExample_ExecuteWithPrinciple_ResultSuccess() GivenOpenClosedPrincipleExample_ExecuteWithPrinciple_ResultSuccess() [TestMethod] public void GivenOpenClosedPrincipleExample_ExecuteWithPrinciple_ResultSuccess()"
+  },
+  "api/SOLIDapp.Tests.html": {
+    "href": "api/SOLIDapp.Tests.html",
+    "title": "Namespace SOLIDapp.Tests",
+    "summary": "Namespace SOLIDapp.Tests Classes UnitTest1 WithOutPrinciples WithPrinciples"
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started",
+    "summary": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction",
+    "summary": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE.",
+    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}

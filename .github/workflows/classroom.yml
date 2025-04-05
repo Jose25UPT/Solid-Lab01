@@ -1,0 +1,60 @@
+name: Autograding Tests
+'on':
+- push
+- repository_dispatch
+permissions:
+  checks: write
+  actions: read
+  contents: read
+jobs:
+  run-autograding-tests:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-classroom[bot]'
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: T1
+      id: t1
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: T1
+        setup-command: export HOME='/home/runner' && cd SOLIDapp && dotnet restore
+        command: export HOME='/home/runner' && cd SOLIDapp && dotnet test
+        timeout: 10
+        max-score: 4
+    - name: T3
+      id: t3
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: T3
+        setup-command: echo ${{ secrets.GHTOKEN }} | gh auth login --with-token
+        command: gh workflow run package_nuget.yml && ls -l solid.pdf
+        timeout: 10
+        max-score: 4
+    - name: T4
+      id: t4
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: T4
+        setup-command: ''
+        command: ".github/workflows/package_nuget.yml | grep nuget"
+        timeout: 10
+        max-score: 8
+    - name: T5
+      id: t5
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: T5
+        setup-command: ''
+        command: ".github/workflows/release_version.yml"
+        timeout: 10
+        max-score: 4
+    - name: Autograding Reporter
+      uses: classroom-resources/autograding-grading-reporter@v1
+      env:
+        T1_RESULTS: "${{steps.t1.outputs.result}}"
+        T3_RESULTS: "${{steps.t3.outputs.result}}"
+        T4_RESULTS: "${{steps.t4.outputs.result}}"
+        T5_RESULTS: "${{steps.t5.outputs.result}}"
+      with:
+        runners: t1,t3,t4,t5

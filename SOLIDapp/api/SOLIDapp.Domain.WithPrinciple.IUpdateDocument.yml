@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: SOLIDapp.Domain.WithPrinciple.IUpdateDocument
+  commentId: T:SOLIDapp.Domain.WithPrinciple.IUpdateDocument
+  id: IUpdateDocument
+  parent: SOLIDapp.Domain.WithPrinciple
+  children:
+  - SOLIDapp.Domain.WithPrinciple.IUpdateDocument.UpdateDocument(System.Int32,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IUpdateDocument
+  nameWithType: IUpdateDocument
+  fullName: SOLIDapp.Domain.WithPrinciple.IUpdateDocument
+  type: Interface
+  source:
+    id: IUpdateDocument
+    path: C:\SOLIDapp\SOLIDapp.Domain\WithPrinciple\DocumentManagement.cs
+    startLine: 10
+  assemblies:
+  - SOLIDapp.Domain
+  namespace: SOLIDapp.Domain.WithPrinciple
+  syntax:
+    content: public interface IUpdateDocument
+    content.vb: Public Interface IUpdateDocument
+- uid: SOLIDapp.Domain.WithPrinciple.IUpdateDocument.UpdateDocument(System.Int32,System.String)
+  commentId: M:SOLIDapp.Domain.WithPrinciple.IUpdateDocument.UpdateDocument(System.Int32,System.String)
+  id: UpdateDocument(System.Int32,System.String)
+  parent: SOLIDapp.Domain.WithPrinciple.IUpdateDocument
+  langs:
+  - csharp
+  - vb
+  name: UpdateDocument(int, string)
+  nameWithType: IUpdateDocument.UpdateDocument(int, string)
+  fullName: SOLIDapp.Domain.WithPrinciple.IUpdateDocument.UpdateDocument(int, string)
+  type: Method
+  source:
+    id: UpdateDocument
+    path: C:\SOLIDapp\SOLIDapp.Domain\WithPrinciple\DocumentManagement.cs
+    startLine: 12
+  assemblies:
+  - SOLIDapp.Domain
+  namespace: SOLIDapp.Domain.WithPrinciple
+  syntax:
+    content: void UpdateDocument(int id, string content)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: content
+      type: System.String
+    content.vb: Sub UpdateDocument(id As Integer, content As String)
+  overload: SOLIDapp.Domain.WithPrinciple.IUpdateDocument.UpdateDocument*
+  nameWithType.vb: IUpdateDocument.UpdateDocument(Integer, String)
+  fullName.vb: SOLIDapp.Domain.WithPrinciple.IUpdateDocument.UpdateDocument(Integer, String)
+  name.vb: UpdateDocument(Integer, String)
+references:
+- uid: SOLIDapp.Domain.WithPrinciple
+  commentId: N:SOLIDapp.Domain.WithPrinciple
+  href: SOLIDapp.html
+  name: SOLIDapp.Domain.WithPrinciple
+  nameWithType: SOLIDapp.Domain.WithPrinciple
+  fullName: SOLIDapp.Domain.WithPrinciple
+  spec.csharp:
+  - uid: SOLIDapp
+    name: SOLIDapp
+    href: SOLIDapp.html
+  - name: .
+  - uid: SOLIDapp.Domain
+    name: Domain
+    href: SOLIDapp.Domain.html
+  - name: .
+  - uid: SOLIDapp.Domain.WithPrinciple
+    name: WithPrinciple
+    href: SOLIDapp.Domain.WithPrinciple.html
+  spec.vb:
+  - uid: SOLIDapp
+    name: SOLIDapp
+    href: SOLIDapp.html
+  - name: .
+  - uid: SOLIDapp.Domain
+    name: Domain
+    href: SOLIDapp.Domain.html
+  - name: .
+  - uid: SOLIDapp.Domain.WithPrinciple
+    name: WithPrinciple
+    href: SOLIDapp.Domain.WithPrinciple.html
+- uid: SOLIDapp.Domain.WithPrinciple.IUpdateDocument.UpdateDocument*
+  commentId: Overload:SOLIDapp.Domain.WithPrinciple.IUpdateDocument.UpdateDocument
+  href: SOLIDapp.Domain.WithPrinciple.IUpdateDocument.html#SOLIDapp_Domain_WithPrinciple_IUpdateDocument_UpdateDocument_System_Int32_System_String_
+  name: UpdateDocument
+  nameWithType: IUpdateDocument.UpdateDocument
+  fullName: SOLIDapp.Domain.WithPrinciple.IUpdateDocument.UpdateDocument
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

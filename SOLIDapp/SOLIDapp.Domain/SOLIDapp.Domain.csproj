@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    
+    <!-- Configuración de NuGet -->
+    <PackageId>SOLIDapp.Domain</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>TuNombre</Authors>
+    <Company>UPT-FAING-EPIS</Company>
+    <PackageProjectUrl>https://github.com/UPT-FAING-EPIS/lab-2025-i-pds-u1-01-csharp-Jose25UPT</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/UPT-FAING-EPIS/lab-2025-i-pds-u1-01-csharp-Jose25UPT</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>Librería que implementa principios SOLID</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <!-- Dependencias principales (SOLO librerías de producción) -->
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,592 @@
+{
+  "source_base_path": "C:/SOLIDapp",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.Class1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.Class1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.Class1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithOutPrinciple.Account.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithOutPrinciple.Account.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithOutPrinciple.Account",
+      "Summary": "<p sourcefile=\"api/SOLIDapp.Domain.WithOutPrinciple.Account.yml\" sourcestartlinenumber=\"1\">Clase de dominio que representa una cuenta Bancaria</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithOutPrinciple.BankAccount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithOutPrinciple.BankAccount.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithOutPrinciple.BankAccount",
+      "Summary": "<p sourcefile=\"api/SOLIDapp.Domain.WithOutPrinciple.BankAccount.yml\" sourcestartlinenumber=\"1\">Clase de dominio que representa una cuenta Bancaria</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithOutPrinciple.CreditCard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithOutPrinciple.CreditCard.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithOutPrinciple.CreditCard",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithOutPrinciple.FixedTermDepositAccount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithOutPrinciple.FixedTermDepositAccount.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithOutPrinciple.FixedTermDepositAccount",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithOutPrinciple.Invoice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithOutPrinciple.Invoice.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithOutPrinciple.Invoice",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithOutPrinciple.InvoiceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithOutPrinciple.InvoiceType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithOutPrinciple.InvoiceType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithOutPrinciple.PaymentProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithOutPrinciple.PaymentProcessor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithOutPrinciple.PaymentProcessor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithOutPrinciple.ReadOnlyUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithOutPrinciple.ReadOnlyUser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithOutPrinciple.ReadOnlyUser",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithOutPrinciple.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithOutPrinciple.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithOutPrinciple",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithPrinciple.Account.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithPrinciple.Account.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithPrinciple.Account",
+      "Summary": "<p sourcefile=\"api/SOLIDapp.Domain.WithPrinciple.Account.yml\" sourcestartlinenumber=\"1\">Clase de dominio que representa una cuenta Bancaria</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithPrinciple.AdminUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithPrinciple.AdminUser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithPrinciple.AdminUser",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithPrinciple.BankAccount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithPrinciple.BankAccount.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithPrinciple.BankAccount",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithPrinciple.CreditCard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithPrinciple.CreditCard.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithPrinciple.CreditCard",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithPrinciple.FinalInvoice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithPrinciple.FinalInvoice.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithPrinciple.FinalInvoice",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithPrinciple.FixedTermDepositAccount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithPrinciple.FixedTermDepositAccount.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithPrinciple.FixedTermDepositAccount",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithPrinciple.ICreateDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithPrinciple.ICreateDocument.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithPrinciple.ICreateDocument",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithPrinciple.IDeleteDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithPrinciple.IDeleteDocument.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithPrinciple.IDeleteDocument",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithPrinciple.IPaymentMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithPrinciple.IPaymentMethod.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithPrinciple.IPaymentMethod",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithPrinciple.IReadDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithPrinciple.IReadDocument.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithPrinciple.IReadDocument",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithPrinciple.IUpdateDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithPrinciple.IUpdateDocument.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithPrinciple.IUpdateDocument",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithPrinciple.Invoice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithPrinciple.Invoice.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithPrinciple.Invoice",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithPrinciple.PayPal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithPrinciple.PayPal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithPrinciple.PayPal",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithPrinciple.PaymentProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithPrinciple.PaymentProcessor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithPrinciple.PaymentProcessor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithPrinciple.ProposedInvoice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithPrinciple.ProposedInvoice.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithPrinciple.ProposedInvoice",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithPrinciple.ReadOnlyUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithPrinciple.ReadOnlyUser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithPrinciple.ReadOnlyUser",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithPrinciple.RecurringInvoice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithPrinciple.RecurringInvoice.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithPrinciple.RecurringInvoice",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithPrinciple.RegularAccount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithPrinciple.RegularAccount.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithPrinciple.RegularAccount",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithPrinciple.StatementPrinter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithPrinciple.StatementPrinter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithPrinciple.StatementPrinter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.WithPrinciple.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.WithPrinciple.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain.WithPrinciple",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Domain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Domain.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Domain",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Tests.UnitTest1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Tests.UnitTest1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Tests.UnitTest1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Tests.WithOutPrinciples.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Tests.WithOutPrinciples.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Tests.WithOutPrinciples",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Tests.WithPrinciples.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Tests.WithPrinciples.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Tests.WithPrinciples",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SOLIDapp.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SOLIDapp.Tests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SOLIDapp.Tests",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+### YamlMime:ManagedReference
+items:
+- uid: SOLIDapp.Domain.WithOutPrinciple.InvoiceType
+  commentId: T:SOLIDapp.Domain.WithOutPrinciple.InvoiceType
+  id: InvoiceType
+  parent: SOLIDapp.Domain.WithOutPrinciple
+  children:
+  - SOLIDapp.Domain.WithOutPrinciple.InvoiceType.FinalInvoice
+  - SOLIDapp.Domain.WithOutPrinciple.InvoiceType.ProposedInvoice
+  langs:
+  - csharp
+  - vb
+  name: InvoiceType
+  nameWithType: InvoiceType
+  fullName: SOLIDapp.Domain.WithOutPrinciple.InvoiceType
+  type: Enum
+  source:
+    id: InvoiceType
+    path: C:\SOLIDapp\SOLIDapp.Domain\WithOutPrinciple\Invoice.cs
+    startLine: 18
+  assemblies:
+  - SOLIDapp.Domain
+  namespace: SOLIDapp.Domain.WithOutPrinciple
+  syntax:
+    content: public enum InvoiceType
+    content.vb: Public Enum InvoiceType
+- uid: SOLIDapp.Domain.WithOutPrinciple.InvoiceType.FinalInvoice
+  commentId: F:SOLIDapp.Domain.WithOutPrinciple.InvoiceType.FinalInvoice
+  id: FinalInvoice
+  parent: SOLIDapp.Domain.WithOutPrinciple.InvoiceType
+  langs:
+  - csharp
+  - vb
+  name: FinalInvoice
+  nameWithType: InvoiceType.FinalInvoice
+  fullName: SOLIDapp.Domain.WithOutPrinciple.InvoiceType.FinalInvoice
+  type: Field
+  source:
+    id: FinalInvoice
+    path: C:\SOLIDapp\SOLIDapp.Domain\WithOutPrinciple\Invoice.cs
+    startLine: 20
+  assemblies:
+  - SOLIDapp.Domain
+  namespace: SOLIDapp.Domain.WithOutPrinciple
+  syntax:
+    content: FinalInvoice = 0
+    return:
+      type: SOLIDapp.Domain.WithOutPrinciple.InvoiceType
+- uid: SOLIDapp.Domain.WithOutPrinciple.InvoiceType.ProposedInvoice
+  commentId: F:SOLIDapp.Domain.WithOutPrinciple.InvoiceType.ProposedInvoice
+  id: ProposedInvoice
+  parent: SOLIDapp.Domain.WithOutPrinciple.InvoiceType
+  langs:
+  - csharp
+  - vb
+  name: ProposedInvoice
+  nameWithType: InvoiceType.ProposedInvoice
+  fullName: SOLIDapp.Domain.WithOutPrinciple.InvoiceType.ProposedInvoice
+  type: Field
+  source:
+    id: ProposedInvoice
+    path: C:\SOLIDapp\SOLIDapp.Domain\WithOutPrinciple\Invoice.cs
+    startLine: 21
+  assemblies:
+  - SOLIDapp.Domain
+  namespace: SOLIDapp.Domain.WithOutPrinciple
+  syntax:
+    content: ProposedInvoice = 1
+    return:
+      type: SOLIDapp.Domain.WithOutPrinciple.InvoiceType
+references:
+- uid: SOLIDapp.Domain.WithOutPrinciple
+  commentId: N:SOLIDapp.Domain.WithOutPrinciple
+  href: SOLIDapp.html
+  name: SOLIDapp.Domain.WithOutPrinciple
+  nameWithType: SOLIDapp.Domain.WithOutPrinciple
+  fullName: SOLIDapp.Domain.WithOutPrinciple
+  spec.csharp:
+  - uid: SOLIDapp
+    name: SOLIDapp
+    href: SOLIDapp.html
+  - name: .
+  - uid: SOLIDapp.Domain
+    name: Domain
+    href: SOLIDapp.Domain.html
+  - name: .
+  - uid: SOLIDapp.Domain.WithOutPrinciple
+    name: WithOutPrinciple
+    href: SOLIDapp.Domain.WithOutPrinciple.html
+  spec.vb:
+  - uid: SOLIDapp
+    name: SOLIDapp
+    href: SOLIDapp.html
+  - name: .
+  - uid: SOLIDapp.Domain
+    name: Domain
+    href: SOLIDapp.Domain.html
+  - name: .
+  - uid: SOLIDapp.Domain.WithOutPrinciple
+    name: WithOutPrinciple
+    href: SOLIDapp.Domain.WithOutPrinciple.html
+- uid: SOLIDapp.Domain.WithOutPrinciple.InvoiceType
+  commentId: T:SOLIDapp.Domain.WithOutPrinciple.InvoiceType
+  parent: SOLIDapp.Domain.WithOutPrinciple
+  href: SOLIDapp.Domain.WithOutPrinciple.InvoiceType.html
+  name: InvoiceType
+  nameWithType: InvoiceType
+  fullName: SOLIDapp.Domain.WithOutPrinciple.InvoiceType

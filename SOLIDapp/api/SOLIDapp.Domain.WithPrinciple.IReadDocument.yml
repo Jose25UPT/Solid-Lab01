@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: SOLIDapp.Domain.WithPrinciple.IReadDocument
+  commentId: T:SOLIDapp.Domain.WithPrinciple.IReadDocument
+  id: IReadDocument
+  parent: SOLIDapp.Domain.WithPrinciple
+  children:
+  - SOLIDapp.Domain.WithPrinciple.IReadDocument.ReadDocument(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: IReadDocument
+  nameWithType: IReadDocument
+  fullName: SOLIDapp.Domain.WithPrinciple.IReadDocument
+  type: Interface
+  source:
+    id: IReadDocument
+    path: C:\SOLIDapp\SOLIDapp.Domain\WithPrinciple\DocumentManagement.cs
+    startLine: 6
+  assemblies:
+  - SOLIDapp.Domain
+  namespace: SOLIDapp.Domain.WithPrinciple
+  syntax:
+    content: public interface IReadDocument
+    content.vb: Public Interface IReadDocument
+- uid: SOLIDapp.Domain.WithPrinciple.IReadDocument.ReadDocument(System.Int32)
+  commentId: M:SOLIDapp.Domain.WithPrinciple.IReadDocument.ReadDocument(System.Int32)
+  id: ReadDocument(System.Int32)
+  parent: SOLIDapp.Domain.WithPrinciple.IReadDocument
+  langs:
+  - csharp
+  - vb
+  name: ReadDocument(int)
+  nameWithType: IReadDocument.ReadDocument(int)
+  fullName: SOLIDapp.Domain.WithPrinciple.IReadDocument.ReadDocument(int)
+  type: Method
+  source:
+    id: ReadDocument
+    path: C:\SOLIDapp\SOLIDapp.Domain\WithPrinciple\DocumentManagement.cs
+    startLine: 8
+  assemblies:
+  - SOLIDapp.Domain
+  namespace: SOLIDapp.Domain.WithPrinciple
+  syntax:
+    content: string ReadDocument(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Function ReadDocument(id As Integer) As String
+  overload: SOLIDapp.Domain.WithPrinciple.IReadDocument.ReadDocument*
+  nameWithType.vb: IReadDocument.ReadDocument(Integer)
+  fullName.vb: SOLIDapp.Domain.WithPrinciple.IReadDocument.ReadDocument(Integer)
+  name.vb: ReadDocument(Integer)
+references:
+- uid: SOLIDapp.Domain.WithPrinciple
+  commentId: N:SOLIDapp.Domain.WithPrinciple
+  href: SOLIDapp.html
+  name: SOLIDapp.Domain.WithPrinciple
+  nameWithType: SOLIDapp.Domain.WithPrinciple
+  fullName: SOLIDapp.Domain.WithPrinciple
+  spec.csharp:
+  - uid: SOLIDapp
+    name: SOLIDapp
+    href: SOLIDapp.html
+  - name: .
+  - uid: SOLIDapp.Domain
+    name: Domain
+    href: SOLIDapp.Domain.html
+  - name: .
+  - uid: SOLIDapp.Domain.WithPrinciple
+    name: WithPrinciple
+    href: SOLIDapp.Domain.WithPrinciple.html
+  spec.vb:
+  - uid: SOLIDapp
+    name: SOLIDapp
+    href: SOLIDapp.html
+  - name: .
+  - uid: SOLIDapp.Domain
+    name: Domain
+    href: SOLIDapp.Domain.html
+  - name: .
+  - uid: SOLIDapp.Domain.WithPrinciple
+    name: WithPrinciple
+    href: SOLIDapp.Domain.WithPrinciple.html
+- uid: SOLIDapp.Domain.WithPrinciple.IReadDocument.ReadDocument*
+  commentId: Overload:SOLIDapp.Domain.WithPrinciple.IReadDocument.ReadDocument
+  href: SOLIDapp.Domain.WithPrinciple.IReadDocument.html#SOLIDapp_Domain_WithPrinciple_IReadDocument_ReadDocument_System_Int32_
+  name: ReadDocument
+  nameWithType: IReadDocument.ReadDocument
+  fullName: SOLIDapp.Domain.WithPrinciple.IReadDocument.ReadDocument
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

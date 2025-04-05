@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: SOLIDapp.Tests
+  commentId: N:SOLIDapp.Tests
+  id: SOLIDapp.Tests
+  children:
+  - SOLIDapp.Tests.UnitTest1
+  - SOLIDapp.Tests.WithOutPrinciples
+  - SOLIDapp.Tests.WithPrinciples
+  langs:
+  - csharp
+  - vb
+  name: SOLIDapp.Tests
+  nameWithType: SOLIDapp.Tests
+  fullName: SOLIDapp.Tests
+  type: Namespace
+  assemblies:
+  - SOLIDapp.Tests
+references:
+- uid: SOLIDapp.Tests.UnitTest1
+  commentId: T:SOLIDapp.Tests.UnitTest1
+  href: SOLIDapp.Tests.UnitTest1.html
+  name: UnitTest1
+  nameWithType: UnitTest1
+  fullName: SOLIDapp.Tests.UnitTest1
+- uid: SOLIDapp.Tests.WithOutPrinciples
+  commentId: T:SOLIDapp.Tests.WithOutPrinciples
+  href: SOLIDapp.Tests.WithOutPrinciples.html
+  name: WithOutPrinciples
+  nameWithType: WithOutPrinciples
+  fullName: SOLIDapp.Tests.WithOutPrinciples
+- uid: SOLIDapp.Tests.WithPrinciples
+  commentId: T:SOLIDapp.Tests.WithPrinciples
+  href: SOLIDapp.Tests.WithPrinciples.html
+  name: WithPrinciples
+  nameWithType: WithPrinciples
+  fullName: SOLIDapp.Tests.WithPrinciples

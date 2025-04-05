@@ -1,0 +1,108 @@
+### YamlMime:ManagedReference
+items:
+- uid: SOLIDapp.Domain.WithPrinciple.IDeleteDocument
+  commentId: T:SOLIDapp.Domain.WithPrinciple.IDeleteDocument
+  id: IDeleteDocument
+  parent: SOLIDapp.Domain.WithPrinciple
+  children:
+  - SOLIDapp.Domain.WithPrinciple.IDeleteDocument.DeleteDocument(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: IDeleteDocument
+  nameWithType: IDeleteDocument
+  fullName: SOLIDapp.Domain.WithPrinciple.IDeleteDocument
+  type: Interface
+  source:
+    id: IDeleteDocument
+    path: C:\SOLIDapp\SOLIDapp.Domain\WithPrinciple\DocumentManagement.cs
+    startLine: 14
+  assemblies:
+  - SOLIDapp.Domain
+  namespace: SOLIDapp.Domain.WithPrinciple
+  syntax:
+    content: public interface IDeleteDocument
+    content.vb: Public Interface IDeleteDocument
+- uid: SOLIDapp.Domain.WithPrinciple.IDeleteDocument.DeleteDocument(System.Int32)
+  commentId: M:SOLIDapp.Domain.WithPrinciple.IDeleteDocument.DeleteDocument(System.Int32)
+  id: DeleteDocument(System.Int32)
+  parent: SOLIDapp.Domain.WithPrinciple.IDeleteDocument
+  langs:
+  - csharp
+  - vb
+  name: DeleteDocument(int)
+  nameWithType: IDeleteDocument.DeleteDocument(int)
+  fullName: SOLIDapp.Domain.WithPrinciple.IDeleteDocument.DeleteDocument(int)
+  type: Method
+  source:
+    id: DeleteDocument
+    path: C:\SOLIDapp\SOLIDapp.Domain\WithPrinciple\DocumentManagement.cs
+    startLine: 16
+  assemblies:
+  - SOLIDapp.Domain
+  namespace: SOLIDapp.Domain.WithPrinciple
+  syntax:
+    content: void DeleteDocument(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    content.vb: Sub DeleteDocument(id As Integer)
+  overload: SOLIDapp.Domain.WithPrinciple.IDeleteDocument.DeleteDocument*
+  nameWithType.vb: IDeleteDocument.DeleteDocument(Integer)
+  fullName.vb: SOLIDapp.Domain.WithPrinciple.IDeleteDocument.DeleteDocument(Integer)
+  name.vb: DeleteDocument(Integer)
+references:
+- uid: SOLIDapp.Domain.WithPrinciple
+  commentId: N:SOLIDapp.Domain.WithPrinciple
+  href: SOLIDapp.html
+  name: SOLIDapp.Domain.WithPrinciple
+  nameWithType: SOLIDapp.Domain.WithPrinciple
+  fullName: SOLIDapp.Domain.WithPrinciple
+  spec.csharp:
+  - uid: SOLIDapp
+    name: SOLIDapp
+    href: SOLIDapp.html
+  - name: .
+  - uid: SOLIDapp.Domain
+    name: Domain
+    href: SOLIDapp.Domain.html
+  - name: .
+  - uid: SOLIDapp.Domain.WithPrinciple
+    name: WithPrinciple
+    href: SOLIDapp.Domain.WithPrinciple.html
+  spec.vb:
+  - uid: SOLIDapp
+    name: SOLIDapp
+    href: SOLIDapp.html
+  - name: .
+  - uid: SOLIDapp.Domain
+    name: Domain
+    href: SOLIDapp.Domain.html
+  - name: .
+  - uid: SOLIDapp.Domain.WithPrinciple
+    name: WithPrinciple
+    href: SOLIDapp.Domain.WithPrinciple.html
+- uid: SOLIDapp.Domain.WithPrinciple.IDeleteDocument.DeleteDocument*
+  commentId: Overload:SOLIDapp.Domain.WithPrinciple.IDeleteDocument.DeleteDocument
+  href: SOLIDapp.Domain.WithPrinciple.IDeleteDocument.html#SOLIDapp_Domain_WithPrinciple_IDeleteDocument_DeleteDocument_System_Int32_
+  name: DeleteDocument
+  nameWithType: IDeleteDocument.DeleteDocument
+  fullName: SOLIDapp.Domain.WithPrinciple.IDeleteDocument.DeleteDocument
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

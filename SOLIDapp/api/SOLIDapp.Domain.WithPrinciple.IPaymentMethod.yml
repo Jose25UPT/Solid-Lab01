@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: SOLIDapp.Domain.WithPrinciple.IPaymentMethod
+  commentId: T:SOLIDapp.Domain.WithPrinciple.IPaymentMethod
+  id: IPaymentMethod
+  parent: SOLIDapp.Domain.WithPrinciple
+  children:
+  - SOLIDapp.Domain.WithPrinciple.IPaymentMethod.ProcessPayment(System.Decimal)
+  langs:
+  - csharp
+  - vb
+  name: IPaymentMethod
+  nameWithType: IPaymentMethod
+  fullName: SOLIDapp.Domain.WithPrinciple.IPaymentMethod
+  type: Interface
+  source:
+    id: IPaymentMethod
+    path: C:\SOLIDapp\SOLIDapp.Domain\WithPrinciple\PaymentProcessor.cs
+    startLine: 3
+  assemblies:
+  - SOLIDapp.Domain
+  namespace: SOLIDapp.Domain.WithPrinciple
+  syntax:
+    content: public interface IPaymentMethod
+    content.vb: Public Interface IPaymentMethod
+- uid: SOLIDapp.Domain.WithPrinciple.IPaymentMethod.ProcessPayment(System.Decimal)
+  commentId: M:SOLIDapp.Domain.WithPrinciple.IPaymentMethod.ProcessPayment(System.Decimal)
+  id: ProcessPayment(System.Decimal)
+  parent: SOLIDapp.Domain.WithPrinciple.IPaymentMethod
+  langs:
+  - csharp
+  - vb
+  name: ProcessPayment(decimal)
+  nameWithType: IPaymentMethod.ProcessPayment(decimal)
+  fullName: SOLIDapp.Domain.WithPrinciple.IPaymentMethod.ProcessPayment(decimal)
+  type: Method
+  source:
+    id: ProcessPayment
+    path: C:\SOLIDapp\SOLIDapp.Domain\WithPrinciple\PaymentProcessor.cs
+    startLine: 5
+  assemblies:
+  - SOLIDapp.Domain
+  namespace: SOLIDapp.Domain.WithPrinciple
+  syntax:
+    content: string ProcessPayment(decimal amount)
+    parameters:
+    - id: amount
+      type: System.Decimal
+    return:
+      type: System.String
+    content.vb: Function ProcessPayment(amount As Decimal) As String
+  overload: SOLIDapp.Domain.WithPrinciple.IPaymentMethod.ProcessPayment*
+  nameWithType.vb: IPaymentMethod.ProcessPayment(Decimal)
+  fullName.vb: SOLIDapp.Domain.WithPrinciple.IPaymentMethod.ProcessPayment(Decimal)
+  name.vb: ProcessPayment(Decimal)
+references:
+- uid: SOLIDapp.Domain.WithPrinciple
+  commentId: N:SOLIDapp.Domain.WithPrinciple
+  href: SOLIDapp.html
+  name: SOLIDapp.Domain.WithPrinciple
+  nameWithType: SOLIDapp.Domain.WithPrinciple
+  fullName: SOLIDapp.Domain.WithPrinciple
+  spec.csharp:
+  - uid: SOLIDapp
+    name: SOLIDapp
+    href: SOLIDapp.html
+  - name: .
+  - uid: SOLIDapp.Domain
+    name: Domain
+    href: SOLIDapp.Domain.html
+  - name: .
+  - uid: SOLIDapp.Domain.WithPrinciple
+    name: WithPrinciple
+    href: SOLIDapp.Domain.WithPrinciple.html
+  spec.vb:
+  - uid: SOLIDapp
+    name: SOLIDapp
+    href: SOLIDapp.html
+  - name: .
+  - uid: SOLIDapp.Domain
+    name: Domain
+    href: SOLIDapp.Domain.html
+  - name: .
+  - uid: SOLIDapp.Domain.WithPrinciple
+    name: WithPrinciple
+    href: SOLIDapp.Domain.WithPrinciple.html
+- uid: SOLIDapp.Domain.WithPrinciple.IPaymentMethod.ProcessPayment*
+  commentId: Overload:SOLIDapp.Domain.WithPrinciple.IPaymentMethod.ProcessPayment
+  href: SOLIDapp.Domain.WithPrinciple.IPaymentMethod.html#SOLIDapp_Domain_WithPrinciple_IPaymentMethod_ProcessPayment_System_Decimal_
+  name: ProcessPayment
+  nameWithType: IPaymentMethod.ProcessPayment
+  fullName: SOLIDapp.Domain.WithPrinciple.IPaymentMethod.ProcessPayment
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.decimal
+  name: decimal
+  nameWithType: decimal
+  fullName: decimal
+  nameWithType.vb: Decimal
+  fullName.vb: Decimal
+  name.vb: Decimal
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

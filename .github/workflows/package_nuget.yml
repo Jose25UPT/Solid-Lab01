@@ -1,0 +1,68 @@
+name: Publish SOLIDapp.Domain Package
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'lab-2025-i-pds-u1-01-csharp-Jose25UPT/SOLIDapp/**'
+  workflow_dispatch:
+
+env:
+  DOTNET_VERSION: '8.0.x'
+  OWNER: 'UPT-FAING-EPIS'
+  REPO_NAME: 'lab-2025-i-pds-u1-01-csharp-Jose25UPT'
+  GITHUB_NUGET_SOURCE: 'https://nuget.pkg.github.com/UPT-FAING-EPIS/index.json'
+
+jobs:
+  publish-package:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+      id-token: write
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        path: ${{ env.REPO_NAME }}
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: ${{ env.DOTNET_VERSION }}
+
+    - name: Test GitHub Packages Access
+      run: |
+        curl -s -H "Authorization: token ${{ secrets.GH_PACKAGES_TOKEN }}" \
+             -H "Accept: application/vnd.github.v3+json" \
+             https://nuget.pkg.github.com/UPT-FAING-EPIS/index.json
+
+    - name: Configure NuGet Auth
+      run: |
+        dotnet nuget add source "${{ env.GITHUB_NUGET_SOURCE }}" \
+          --name "github" \
+          --username "github" \
+          --password "${{ secrets.GH_PACKAGES_TOKEN }}" \
+          --store-password-in-clear-text
+
+    - name: Restore & Build
+      working-directory: ./${{ env.REPO_NAME }}/SOLIDapp
+      run: |
+        dotnet restore SOLIDapp.sln
+        dotnet build SOLIDapp.sln --configuration Release
+
+    - name: Create NuGet Package
+      working-directory: ./${{ env.REPO_NAME }}/SOLIDapp
+      run: |
+        mkdir -p nupkg
+        dotnet pack SOLIDapp.Domain -c Release -o nupkg --no-build
+
+    - name: Publish Package
+      working-directory: ./${{ env.REPO_NAME }}/SOLIDapp
+      run: |
+        dotnet nuget push "nupkg/*.nupkg" \
+          --source "${{ env.GITHUB_NUGET_SOURCE }}" \
+          --api-key ${{ secrets.GH_PACKAGES_TOKEN }} \
+          --skip-duplicate \
+          --no-symbols \
+          --force-english-output

@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: SOLIDapp.Domain.WithOutPrinciple
+  commentId: N:SOLIDapp.Domain.WithOutPrinciple
+  id: SOLIDapp.Domain.WithOutPrinciple
+  children:
+  - SOLIDapp.Domain.WithOutPrinciple.Account
+  - SOLIDapp.Domain.WithOutPrinciple.BankAccount
+  - SOLIDapp.Domain.WithOutPrinciple.CreditCard
+  - SOLIDapp.Domain.WithOutPrinciple.FixedTermDepositAccount
+  - SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement
+  - SOLIDapp.Domain.WithOutPrinciple.Invoice
+  - SOLIDapp.Domain.WithOutPrinciple.InvoiceType
+  - SOLIDapp.Domain.WithOutPrinciple.PaymentProcessor
+  - SOLIDapp.Domain.WithOutPrinciple.ReadOnlyUser
+  langs:
+  - csharp
+  - vb
+  name: SOLIDapp.Domain.WithOutPrinciple
+  nameWithType: SOLIDapp.Domain.WithOutPrinciple
+  fullName: SOLIDapp.Domain.WithOutPrinciple
+  type: Namespace
+  assemblies:
+  - SOLIDapp.Domain
+references:
+- uid: SOLIDapp.Domain.WithOutPrinciple.Account
+  commentId: T:SOLIDapp.Domain.WithOutPrinciple.Account
+  parent: SOLIDapp.Domain.WithOutPrinciple
+  href: SOLIDapp.Domain.WithOutPrinciple.Account.html
+  name: Account
+  nameWithType: Account
+  fullName: SOLIDapp.Domain.WithOutPrinciple.Account
+- uid: SOLIDapp.Domain.WithOutPrinciple.FixedTermDepositAccount
+  commentId: T:SOLIDapp.Domain.WithOutPrinciple.FixedTermDepositAccount
+  href: SOLIDapp.Domain.WithOutPrinciple.FixedTermDepositAccount.html
+  name: FixedTermDepositAccount
+  nameWithType: FixedTermDepositAccount
+  fullName: SOLIDapp.Domain.WithOutPrinciple.FixedTermDepositAccount
+- uid: SOLIDapp.Domain.WithOutPrinciple.BankAccount
+  commentId: T:SOLIDapp.Domain.WithOutPrinciple.BankAccount
+  href: SOLIDapp.Domain.WithOutPrinciple.BankAccount.html
+  name: BankAccount
+  nameWithType: BankAccount
+  fullName: SOLIDapp.Domain.WithOutPrinciple.BankAccount
+- uid: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement
+  commentId: T:SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement
+  parent: SOLIDapp.Domain.WithOutPrinciple
+  href: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.html
+  name: IDocumentManagement
+  nameWithType: IDocumentManagement
+  fullName: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement
+- uid: SOLIDapp.Domain.WithOutPrinciple.ReadOnlyUser
+  commentId: T:SOLIDapp.Domain.WithOutPrinciple.ReadOnlyUser
+  href: SOLIDapp.Domain.WithOutPrinciple.ReadOnlyUser.html
+  name: ReadOnlyUser
+  nameWithType: ReadOnlyUser
+  fullName: SOLIDapp.Domain.WithOutPrinciple.ReadOnlyUser
+- uid: SOLIDapp.Domain.WithOutPrinciple.Invoice
+  commentId: T:SOLIDapp.Domain.WithOutPrinciple.Invoice
+  href: SOLIDapp.Domain.WithOutPrinciple.Invoice.html
+  name: Invoice
+  nameWithType: Invoice
+  fullName: SOLIDapp.Domain.WithOutPrinciple.Invoice
+- uid: SOLIDapp.Domain.WithOutPrinciple.InvoiceType
+  commentId: T:SOLIDapp.Domain.WithOutPrinciple.InvoiceType
+  parent: SOLIDapp.Domain.WithOutPrinciple
+  href: SOLIDapp.Domain.WithOutPrinciple.InvoiceType.html
+  name: InvoiceType
+  nameWithType: InvoiceType
+  fullName: SOLIDapp.Domain.WithOutPrinciple.InvoiceType
+- uid: SOLIDapp.Domain.WithOutPrinciple.CreditCard
+  commentId: T:SOLIDapp.Domain.WithOutPrinciple.CreditCard
+  href: SOLIDapp.Domain.WithOutPrinciple.CreditCard.html
+  name: CreditCard
+  nameWithType: CreditCard
+  fullName: SOLIDapp.Domain.WithOutPrinciple.CreditCard
+- uid: SOLIDapp.Domain.WithOutPrinciple.PaymentProcessor
+  commentId: T:SOLIDapp.Domain.WithOutPrinciple.PaymentProcessor
+  href: SOLIDapp.Domain.WithOutPrinciple.PaymentProcessor.html
+  name: PaymentProcessor
+  nameWithType: PaymentProcessor
+  fullName: SOLIDapp.Domain.WithOutPrinciple.PaymentProcessor
+- uid: SOLIDapp.Domain.WithOutPrinciple
+  commentId: N:SOLIDapp.Domain.WithOutPrinciple
+  href: SOLIDapp.html
+  name: SOLIDapp.Domain.WithOutPrinciple
+  nameWithType: SOLIDapp.Domain.WithOutPrinciple
+  fullName: SOLIDapp.Domain.WithOutPrinciple
+  spec.csharp:
+  - uid: SOLIDapp
+    name: SOLIDapp
+    href: SOLIDapp.html
+  - name: .
+  - uid: SOLIDapp.Domain
+    name: Domain
+    href: SOLIDapp.Domain.html
+  - name: .
+  - uid: SOLIDapp.Domain.WithOutPrinciple
+    name: WithOutPrinciple
+    href: SOLIDapp.Domain.WithOutPrinciple.html
+  spec.vb:
+  - uid: SOLIDapp
+    name: SOLIDapp
+    href: SOLIDapp.html
+  - name: .
+  - uid: SOLIDapp.Domain
+    name: Domain
+    href: SOLIDapp.Domain.html
+  - name: .
+  - uid: SOLIDapp.Domain.WithOutPrinciple
+    name: WithOutPrinciple
+    href: SOLIDapp.Domain.WithOutPrinciple.html

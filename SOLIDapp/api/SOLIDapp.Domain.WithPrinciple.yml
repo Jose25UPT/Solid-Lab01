@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: SOLIDapp.Domain.WithPrinciple
+  commentId: N:SOLIDapp.Domain.WithPrinciple
+  id: SOLIDapp.Domain.WithPrinciple
+  children:
+  - SOLIDapp.Domain.WithPrinciple.Account
+  - SOLIDapp.Domain.WithPrinciple.AdminUser
+  - SOLIDapp.Domain.WithPrinciple.BankAccount
+  - SOLIDapp.Domain.WithPrinciple.CreditCard
+  - SOLIDapp.Domain.WithPrinciple.FinalInvoice
+  - SOLIDapp.Domain.WithPrinciple.FixedTermDepositAccount
+  - SOLIDapp.Domain.WithPrinciple.ICreateDocument
+  - SOLIDapp.Domain.WithPrinciple.IDeleteDocument
+  - SOLIDapp.Domain.WithPrinciple.IPaymentMethod
+  - SOLIDapp.Domain.WithPrinciple.IReadDocument
+  - SOLIDapp.Domain.WithPrinciple.IUpdateDocument
+  - SOLIDapp.Domain.WithPrinciple.Invoice
+  - SOLIDapp.Domain.WithPrinciple.PayPal
+  - SOLIDapp.Domain.WithPrinciple.PaymentProcessor
+  - SOLIDapp.Domain.WithPrinciple.ProposedInvoice
+  - SOLIDapp.Domain.WithPrinciple.ReadOnlyUser
+  - SOLIDapp.Domain.WithPrinciple.RecurringInvoice
+  - SOLIDapp.Domain.WithPrinciple.RegularAccount
+  - SOLIDapp.Domain.WithPrinciple.StatementPrinter
+  langs:
+  - csharp
+  - vb
+  name: SOLIDapp.Domain.WithPrinciple
+  nameWithType: SOLIDapp.Domain.WithPrinciple
+  fullName: SOLIDapp.Domain.WithPrinciple
+  type: Namespace
+  assemblies:
+  - SOLIDapp.Domain
+references:
+- uid: SOLIDapp.Domain.WithPrinciple.Account
+  commentId: T:SOLIDapp.Domain.WithPrinciple.Account
+  parent: SOLIDapp.Domain.WithPrinciple
+  href: SOLIDapp.Domain.WithPrinciple.Account.html
+  name: Account
+  nameWithType: Account
+  fullName: SOLIDapp.Domain.WithPrinciple.Account
+- uid: SOLIDapp.Domain.WithPrinciple.RegularAccount
+  commentId: T:SOLIDapp.Domain.WithPrinciple.RegularAccount
+  href: SOLIDapp.Domain.WithPrinciple.RegularAccount.html
+  name: RegularAccount
+  nameWithType: RegularAccount
+  fullName: SOLIDapp.Domain.WithPrinciple.RegularAccount
+- uid: SOLIDapp.Domain.WithPrinciple.FixedTermDepositAccount
+  commentId: T:SOLIDapp.Domain.WithPrinciple.FixedTermDepositAccount
+  href: SOLIDapp.Domain.WithPrinciple.FixedTermDepositAccount.html
+  name: FixedTermDepositAccount
+  nameWithType: FixedTermDepositAccount
+  fullName: SOLIDapp.Domain.WithPrinciple.FixedTermDepositAccount
+- uid: SOLIDapp.Domain.WithPrinciple.BankAccount
+  commentId: T:SOLIDapp.Domain.WithPrinciple.BankAccount
+  parent: SOLIDapp.Domain.WithPrinciple
+  href: SOLIDapp.Domain.WithPrinciple.BankAccount.html
+  name: BankAccount
+  nameWithType: BankAccount
+  fullName: SOLIDapp.Domain.WithPrinciple.BankAccount
+- uid: SOLIDapp.Domain.WithPrinciple.StatementPrinter
+  commentId: T:SOLIDapp.Domain.WithPrinciple.StatementPrinter
+  href: SOLIDapp.Domain.WithPrinciple.StatementPrinter.html
+  name: StatementPrinter
+  nameWithType: StatementPrinter
+  fullName: SOLIDapp.Domain.WithPrinciple.StatementPrinter
+- uid: SOLIDapp.Domain.WithPrinciple.ICreateDocument
+  commentId: T:SOLIDapp.Domain.WithPrinciple.ICreateDocument
+  parent: SOLIDapp.Domain.WithPrinciple
+  href: SOLIDapp.Domain.WithPrinciple.ICreateDocument.html
+  name: ICreateDocument
+  nameWithType: ICreateDocument
+  fullName: SOLIDapp.Domain.WithPrinciple.ICreateDocument
+- uid: SOLIDapp.Domain.WithPrinciple.IReadDocument
+  commentId: T:SOLIDapp.Domain.WithPrinciple.IReadDocument
+  parent: SOLIDapp.Domain.WithPrinciple
+  href: SOLIDapp.Domain.WithPrinciple.IReadDocument.html
+  name: IReadDocument
+  nameWithType: IReadDocument
+  fullName: SOLIDapp.Domain.WithPrinciple.IReadDocument
+- uid: SOLIDapp.Domain.WithPrinciple.IUpdateDocument
+  commentId: T:SOLIDapp.Domain.WithPrinciple.IUpdateDocument
+  parent: SOLIDapp.Domain.WithPrinciple
+  href: SOLIDapp.Domain.WithPrinciple.IUpdateDocument.html
+  name: IUpdateDocument
+  nameWithType: IUpdateDocument
+  fullName: SOLIDapp.Domain.WithPrinciple.IUpdateDocument
+- uid: SOLIDapp.Domain.WithPrinciple.IDeleteDocument
+  commentId: T:SOLIDapp.Domain.WithPrinciple.IDeleteDocument
+  parent: SOLIDapp.Domain.WithPrinciple
+  href: SOLIDapp.Domain.WithPrinciple.IDeleteDocument.html
+  name: IDeleteDocument
+  nameWithType: IDeleteDocument
+  fullName: SOLIDapp.Domain.WithPrinciple.IDeleteDocument
+- uid: SOLIDapp.Domain.WithPrinciple.ReadOnlyUser
+  commentId: T:SOLIDapp.Domain.WithPrinciple.ReadOnlyUser
+  href: SOLIDapp.Domain.WithPrinciple.ReadOnlyUser.html
+  name: ReadOnlyUser
+  nameWithType: ReadOnlyUser
+  fullName: SOLIDapp.Domain.WithPrinciple.ReadOnlyUser
+- uid: SOLIDapp.Domain.WithPrinciple.AdminUser
+  commentId: T:SOLIDapp.Domain.WithPrinciple.AdminUser
+  href: SOLIDapp.Domain.WithPrinciple.AdminUser.html
+  name: AdminUser
+  nameWithType: AdminUser
+  fullName: SOLIDapp.Domain.WithPrinciple.AdminUser
+- uid: SOLIDapp.Domain.WithPrinciple.Invoice
+  commentId: T:SOLIDapp.Domain.WithPrinciple.Invoice
+  parent: SOLIDapp.Domain.WithPrinciple
+  href: SOLIDapp.Domain.WithPrinciple.Invoice.html
+  name: Invoice
+  nameWithType: Invoice
+  fullName: SOLIDapp.Domain.WithPrinciple.Invoice
+- uid: SOLIDapp.Domain.WithPrinciple.FinalInvoice
+  commentId: T:SOLIDapp.Domain.WithPrinciple.FinalInvoice
+  href: SOLIDapp.Domain.WithPrinciple.FinalInvoice.html
+  name: FinalInvoice
+  nameWithType: FinalInvoice
+  fullName: SOLIDapp.Domain.WithPrinciple.FinalInvoice
+- uid: SOLIDapp.Domain.WithPrinciple.ProposedInvoice
+  commentId: T:SOLIDapp.Domain.WithPrinciple.ProposedInvoice
+  href: SOLIDapp.Domain.WithPrinciple.ProposedInvoice.html
+  name: ProposedInvoice
+  nameWithType: ProposedInvoice
+  fullName: SOLIDapp.Domain.WithPrinciple.ProposedInvoice
+- uid: SOLIDapp.Domain.WithPrinciple.RecurringInvoice
+  commentId: T:SOLIDapp.Domain.WithPrinciple.RecurringInvoice
+  href: SOLIDapp.Domain.WithPrinciple.RecurringInvoice.html
+  name: RecurringInvoice
+  nameWithType: RecurringInvoice
+  fullName: SOLIDapp.Domain.WithPrinciple.RecurringInvoice
+- uid: SOLIDapp.Domain.WithPrinciple.IPaymentMethod
+  commentId: T:SOLIDapp.Domain.WithPrinciple.IPaymentMethod
+  parent: SOLIDapp.Domain.WithPrinciple
+  href: SOLIDapp.Domain.WithPrinciple.IPaymentMethod.html
+  name: IPaymentMethod
+  nameWithType: IPaymentMethod
+  fullName: SOLIDapp.Domain.WithPrinciple.IPaymentMethod
+- uid: SOLIDapp.Domain.WithPrinciple.CreditCard
+  commentId: T:SOLIDapp.Domain.WithPrinciple.CreditCard
+  href: SOLIDapp.Domain.WithPrinciple.CreditCard.html
+  name: CreditCard
+  nameWithType: CreditCard
+  fullName: SOLIDapp.Domain.WithPrinciple.CreditCard
+- uid: SOLIDapp.Domain.WithPrinciple.PayPal
+  commentId: T:SOLIDapp.Domain.WithPrinciple.PayPal
+  href: SOLIDapp.Domain.WithPrinciple.PayPal.html
+  name: PayPal
+  nameWithType: PayPal
+  fullName: SOLIDapp.Domain.WithPrinciple.PayPal
+- uid: SOLIDapp.Domain.WithPrinciple.PaymentProcessor
+  commentId: T:SOLIDapp.Domain.WithPrinciple.PaymentProcessor
+  href: SOLIDapp.Domain.WithPrinciple.PaymentProcessor.html
+  name: PaymentProcessor
+  nameWithType: PaymentProcessor
+  fullName: SOLIDapp.Domain.WithPrinciple.PaymentProcessor
+- uid: SOLIDapp.Domain.WithPrinciple
+  commentId: N:SOLIDapp.Domain.WithPrinciple
+  href: SOLIDapp.html
+  name: SOLIDapp.Domain.WithPrinciple
+  nameWithType: SOLIDapp.Domain.WithPrinciple
+  fullName: SOLIDapp.Domain.WithPrinciple
+  spec.csharp:
+  - uid: SOLIDapp
+    name: SOLIDapp
+    href: SOLIDapp.html
+  - name: .
+  - uid: SOLIDapp.Domain
+    name: Domain
+    href: SOLIDapp.Domain.html
+  - name: .
+  - uid: SOLIDapp.Domain.WithPrinciple
+    name: WithPrinciple
+    href: SOLIDapp.Domain.WithPrinciple.html
+  spec.vb:
+  - uid: SOLIDapp
+    name: SOLIDapp
+    href: SOLIDapp.html
+  - name: .
+  - uid: SOLIDapp.Domain
+    name: Domain
+    href: SOLIDapp.Domain.html
+  - name: .
+  - uid: SOLIDapp.Domain.WithPrinciple
+    name: WithPrinciple
+    href: SOLIDapp.Domain.WithPrinciple.html

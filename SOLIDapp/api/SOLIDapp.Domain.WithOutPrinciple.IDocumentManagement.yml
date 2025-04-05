@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement
+  commentId: T:SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement
+  id: IDocumentManagement
+  parent: SOLIDapp.Domain.WithOutPrinciple
+  children:
+  - SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.CreateDocument(System.String)
+  - SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.DeleteDocument(System.Int32)
+  - SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.ReadDocument(System.Int32)
+  - SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.UpdateDocument(System.Int32,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IDocumentManagement
+  nameWithType: IDocumentManagement
+  fullName: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement
+  type: Interface
+  source:
+    id: IDocumentManagement
+    path: C:\SOLIDapp\SOLIDapp.Domain\WithOutPrinciple\DocumentManagement.cs
+    startLine: 2
+  assemblies:
+  - SOLIDapp.Domain
+  namespace: SOLIDapp.Domain.WithOutPrinciple
+  syntax:
+    content: public interface IDocumentManagement
+    content.vb: Public Interface IDocumentManagement
+- uid: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.CreateDocument(System.String)
+  commentId: M:SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.CreateDocument(System.String)
+  id: CreateDocument(System.String)
+  parent: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement
+  langs:
+  - csharp
+  - vb
+  name: CreateDocument(string)
+  nameWithType: IDocumentManagement.CreateDocument(string)
+  fullName: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.CreateDocument(string)
+  type: Method
+  source:
+    id: CreateDocument
+    path: C:\SOLIDapp\SOLIDapp.Domain\WithOutPrinciple\DocumentManagement.cs
+    startLine: 4
+  assemblies:
+  - SOLIDapp.Domain
+  namespace: SOLIDapp.Domain.WithOutPrinciple
+  syntax:
+    content: void CreateDocument(string content)
+    parameters:
+    - id: content
+      type: System.String
+    content.vb: Sub CreateDocument(content As String)
+  overload: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.CreateDocument*
+  nameWithType.vb: IDocumentManagement.CreateDocument(String)
+  fullName.vb: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.CreateDocument(String)
+  name.vb: CreateDocument(String)
+- uid: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.ReadDocument(System.Int32)
+  commentId: M:SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.ReadDocument(System.Int32)
+  id: ReadDocument(System.Int32)
+  parent: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement
+  langs:
+  - csharp
+  - vb
+  name: ReadDocument(int)
+  nameWithType: IDocumentManagement.ReadDocument(int)
+  fullName: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.ReadDocument(int)
+  type: Method
+  source:
+    id: ReadDocument
+    path: C:\SOLIDapp\SOLIDapp.Domain\WithOutPrinciple\DocumentManagement.cs
+    startLine: 5
+  assemblies:
+  - SOLIDapp.Domain
+  namespace: SOLIDapp.Domain.WithOutPrinciple
+  syntax:
+    content: string ReadDocument(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Function ReadDocument(id As Integer) As String
+  overload: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.ReadDocument*
+  nameWithType.vb: IDocumentManagement.ReadDocument(Integer)
+  fullName.vb: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.ReadDocument(Integer)
+  name.vb: ReadDocument(Integer)
+- uid: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.UpdateDocument(System.Int32,System.String)
+  commentId: M:SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.UpdateDocument(System.Int32,System.String)
+  id: UpdateDocument(System.Int32,System.String)
+  parent: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement
+  langs:
+  - csharp
+  - vb
+  name: UpdateDocument(int, string)
+  nameWithType: IDocumentManagement.UpdateDocument(int, string)
+  fullName: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.UpdateDocument(int, string)
+  type: Method
+  source:
+    id: UpdateDocument
+    path: C:\SOLIDapp\SOLIDapp.Domain\WithOutPrinciple\DocumentManagement.cs
+    startLine: 6
+  assemblies:
+  - SOLIDapp.Domain
+  namespace: SOLIDapp.Domain.WithOutPrinciple
+  syntax:
+    content: void UpdateDocument(int id, string content)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: content
+      type: System.String
+    content.vb: Sub UpdateDocument(id As Integer, content As String)
+  overload: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.UpdateDocument*
+  nameWithType.vb: IDocumentManagement.UpdateDocument(Integer, String)
+  fullName.vb: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.UpdateDocument(Integer, String)
+  name.vb: UpdateDocument(Integer, String)
+- uid: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.DeleteDocument(System.Int32)
+  commentId: M:SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.DeleteDocument(System.Int32)
+  id: DeleteDocument(System.Int32)
+  parent: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement
+  langs:
+  - csharp
+  - vb
+  name: DeleteDocument(int)
+  nameWithType: IDocumentManagement.DeleteDocument(int)
+  fullName: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.DeleteDocument(int)
+  type: Method
+  source:
+    id: DeleteDocument
+    path: C:\SOLIDapp\SOLIDapp.Domain\WithOutPrinciple\DocumentManagement.cs
+    startLine: 7
+  assemblies:
+  - SOLIDapp.Domain
+  namespace: SOLIDapp.Domain.WithOutPrinciple
+  syntax:
+    content: void DeleteDocument(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    content.vb: Sub DeleteDocument(id As Integer)
+  overload: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.DeleteDocument*
+  nameWithType.vb: IDocumentManagement.DeleteDocument(Integer)
+  fullName.vb: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.DeleteDocument(Integer)
+  name.vb: DeleteDocument(Integer)
+references:
+- uid: SOLIDapp.Domain.WithOutPrinciple
+  commentId: N:SOLIDapp.Domain.WithOutPrinciple
+  href: SOLIDapp.html
+  name: SOLIDapp.Domain.WithOutPrinciple
+  nameWithType: SOLIDapp.Domain.WithOutPrinciple
+  fullName: SOLIDapp.Domain.WithOutPrinciple
+  spec.csharp:
+  - uid: SOLIDapp
+    name: SOLIDapp
+    href: SOLIDapp.html
+  - name: .
+  - uid: SOLIDapp.Domain
+    name: Domain
+    href: SOLIDapp.Domain.html
+  - name: .
+  - uid: SOLIDapp.Domain.WithOutPrinciple
+    name: WithOutPrinciple
+    href: SOLIDapp.Domain.WithOutPrinciple.html
+  spec.vb:
+  - uid: SOLIDapp
+    name: SOLIDapp
+    href: SOLIDapp.html
+  - name: .
+  - uid: SOLIDapp.Domain
+    name: Domain
+    href: SOLIDapp.Domain.html
+  - name: .
+  - uid: SOLIDapp.Domain.WithOutPrinciple
+    name: WithOutPrinciple
+    href: SOLIDapp.Domain.WithOutPrinciple.html
+- uid: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.CreateDocument*
+  commentId: Overload:SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.CreateDocument
+  href: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.html#SOLIDapp_Domain_WithOutPrinciple_IDocumentManagement_CreateDocument_System_String_
+  name: CreateDocument
+  nameWithType: IDocumentManagement.CreateDocument
+  fullName: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.CreateDocument
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.ReadDocument*
+  commentId: Overload:SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.ReadDocument
+  href: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.html#SOLIDapp_Domain_WithOutPrinciple_IDocumentManagement_ReadDocument_System_Int32_
+  name: ReadDocument
+  nameWithType: IDocumentManagement.ReadDocument
+  fullName: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.ReadDocument
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.UpdateDocument*
+  commentId: Overload:SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.UpdateDocument
+  href: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.html#SOLIDapp_Domain_WithOutPrinciple_IDocumentManagement_UpdateDocument_System_Int32_System_String_
+  name: UpdateDocument
+  nameWithType: IDocumentManagement.UpdateDocument
+  fullName: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.UpdateDocument
+- uid: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.DeleteDocument*
+  commentId: Overload:SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.DeleteDocument
+  href: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.html#SOLIDapp_Domain_WithOutPrinciple_IDocumentManagement_DeleteDocument_System_Int32_
+  name: DeleteDocument
+  nameWithType: IDocumentManagement.DeleteDocument
+  fullName: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement.DeleteDocument

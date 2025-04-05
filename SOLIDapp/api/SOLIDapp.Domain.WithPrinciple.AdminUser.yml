@@ -1,0 +1,649 @@
+### YamlMime:ManagedReference
+items:
+- uid: SOLIDapp.Domain.WithPrinciple.AdminUser
+  commentId: T:SOLIDapp.Domain.WithPrinciple.AdminUser
+  id: AdminUser
+  parent: SOLIDapp.Domain.WithPrinciple
+  children:
+  - SOLIDapp.Domain.WithPrinciple.AdminUser.CreateDocument(System.String)
+  - SOLIDapp.Domain.WithPrinciple.AdminUser.DeleteDocument(System.Int32)
+  - SOLIDapp.Domain.WithPrinciple.AdminUser.ReadDocument(System.Int32)
+  - SOLIDapp.Domain.WithPrinciple.AdminUser.UpdateDocument(System.Int32,System.String)
+  langs:
+  - csharp
+  - vb
+  name: AdminUser
+  nameWithType: AdminUser
+  fullName: SOLIDapp.Domain.WithPrinciple.AdminUser
+  type: Class
+  source:
+    id: AdminUser
+    path: C:\SOLIDapp\SOLIDapp.Domain\WithPrinciple\DocumentManagement.cs
+    startLine: 28
+  assemblies:
+  - SOLIDapp.Domain
+  namespace: SOLIDapp.Domain.WithPrinciple
+  syntax:
+    content: 'public class AdminUser : ICreateDocument, IReadDocument, IUpdateDocument, IDeleteDocument'
+    content.vb: Public Class AdminUser Implements ICreateDocument, IReadDocument, IUpdateDocument, IDeleteDocument
+  inheritance:
+  - System.Object
+  implements:
+  - SOLIDapp.Domain.WithPrinciple.ICreateDocument
+  - SOLIDapp.Domain.WithPrinciple.IReadDocument
+  - SOLIDapp.Domain.WithPrinciple.IUpdateDocument
+  - SOLIDapp.Domain.WithPrinciple.IDeleteDocument
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: SOLIDapp.Domain.WithPrinciple.AdminUser.CreateDocument(System.String)
+  commentId: M:SOLIDapp.Domain.WithPrinciple.AdminUser.CreateDocument(System.String)
+  id: CreateDocument(System.String)
+  parent: SOLIDapp.Domain.WithPrinciple.AdminUser
+  langs:
+  - csharp
+  - vb
+  name: CreateDocument(string)
+  nameWithType: AdminUser.CreateDocument(string)
+  fullName: SOLIDapp.Domain.WithPrinciple.AdminUser.CreateDocument(string)
+  type: Method
+  source:
+    id: CreateDocument
+    path: C:\SOLIDapp\SOLIDapp.Domain\WithPrinciple\DocumentManagement.cs
+    startLine: 31
+  assemblies:
+  - SOLIDapp.Domain
+  namespace: SOLIDapp.Domain.WithPrinciple
+  example: []
+  syntax:
+    content: public void CreateDocument(string content)
+    parameters:
+    - id: content
+      type: System.String
+    content.vb: Public Sub CreateDocument(content As String)
+  overload: SOLIDapp.Domain.WithPrinciple.AdminUser.CreateDocument*
+  implements:
+  - SOLIDapp.Domain.WithPrinciple.ICreateDocument.CreateDocument(System.String)
+  nameWithType.vb: AdminUser.CreateDocument(String)
+  fullName.vb: SOLIDapp.Domain.WithPrinciple.AdminUser.CreateDocument(String)
+  name.vb: CreateDocument(String)
+- uid: SOLIDapp.Domain.WithPrinciple.AdminUser.ReadDocument(System.Int32)
+  commentId: M:SOLIDapp.Domain.WithPrinciple.AdminUser.ReadDocument(System.Int32)
+  id: ReadDocument(System.Int32)
+  parent: SOLIDapp.Domain.WithPrinciple.AdminUser
+  langs:
+  - csharp
+  - vb
+  name: ReadDocument(int)
+  nameWithType: AdminUser.ReadDocument(int)
+  fullName: SOLIDapp.Domain.WithPrinciple.AdminUser.ReadDocument(int)
+  type: Method
+  source:
+    id: ReadDocument
+    path: C:\SOLIDapp\SOLIDapp.Domain\WithPrinciple\DocumentManagement.cs
+    startLine: 35
+  assemblies:
+  - SOLIDapp.Domain
+  namespace: SOLIDapp.Domain.WithPrinciple
+  example: []
+  syntax:
+    content: public string ReadDocument(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function ReadDocument(id As Integer) As String
+  overload: SOLIDapp.Domain.WithPrinciple.AdminUser.ReadDocument*
+  implements:
+  - SOLIDapp.Domain.WithPrinciple.IReadDocument.ReadDocument(System.Int32)
+  nameWithType.vb: AdminUser.ReadDocument(Integer)
+  fullName.vb: SOLIDapp.Domain.WithPrinciple.AdminUser.ReadDocument(Integer)
+  name.vb: ReadDocument(Integer)
+- uid: SOLIDapp.Domain.WithPrinciple.AdminUser.UpdateDocument(System.Int32,System.String)
+  commentId: M:SOLIDapp.Domain.WithPrinciple.AdminUser.UpdateDocument(System.Int32,System.String)
+  id: UpdateDocument(System.Int32,System.String)
+  parent: SOLIDapp.Domain.WithPrinciple.AdminUser
+  langs:
+  - csharp
+  - vb
+  name: UpdateDocument(int, string)
+  nameWithType: AdminUser.UpdateDocument(int, string)
+  fullName: SOLIDapp.Domain.WithPrinciple.AdminUser.UpdateDocument(int, string)
+  type: Method
+  source:
+    id: UpdateDocument
+    path: C:\SOLIDapp\SOLIDapp.Domain\WithPrinciple\DocumentManagement.cs
+    startLine: 40
+  assemblies:
+  - SOLIDapp.Domain
+  namespace: SOLIDapp.Domain.WithPrinciple
+  example: []
+  syntax:
+    content: public void UpdateDocument(int id, string content)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: content
+      type: System.String
+    content.vb: Public Sub UpdateDocument(id As Integer, content As String)
+  overload: SOLIDapp.Domain.WithPrinciple.AdminUser.UpdateDocument*
+  implements:
+  - SOLIDapp.Domain.WithPrinciple.IUpdateDocument.UpdateDocument(System.Int32,System.String)
+  nameWithType.vb: AdminUser.UpdateDocument(Integer, String)
+  fullName.vb: SOLIDapp.Domain.WithPrinciple.AdminUser.UpdateDocument(Integer, String)
+  name.vb: UpdateDocument(Integer, String)
+- uid: SOLIDapp.Domain.WithPrinciple.AdminUser.DeleteDocument(System.Int32)
+  commentId: M:SOLIDapp.Domain.WithPrinciple.AdminUser.DeleteDocument(System.Int32)
+  id: DeleteDocument(System.Int32)
+  parent: SOLIDapp.Domain.WithPrinciple.AdminUser
+  langs:
+  - csharp
+  - vb
+  name: DeleteDocument(int)
+  nameWithType: AdminUser.DeleteDocument(int)
+  fullName: SOLIDapp.Domain.WithPrinciple.AdminUser.DeleteDocument(int)
+  type: Method
+  source:
+    id: DeleteDocument
+    path: C:\SOLIDapp\SOLIDapp.Domain\WithPrinciple\DocumentManagement.cs
+    startLine: 44
+  assemblies:
+  - SOLIDapp.Domain
+  namespace: SOLIDapp.Domain.WithPrinciple
+  example: []
+  syntax:
+    content: public void DeleteDocument(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    content.vb: Public Sub DeleteDocument(id As Integer)
+  overload: SOLIDapp.Domain.WithPrinciple.AdminUser.DeleteDocument*
+  implements:
+  - SOLIDapp.Domain.WithPrinciple.IDeleteDocument.DeleteDocument(System.Int32)
+  nameWithType.vb: AdminUser.DeleteDocument(Integer)
+  fullName.vb: SOLIDapp.Domain.WithPrinciple.AdminUser.DeleteDocument(Integer)
+  name.vb: DeleteDocument(Integer)
+references:
+- uid: SOLIDapp.Domain.WithPrinciple
+  commentId: N:SOLIDapp.Domain.WithPrinciple
+  href: SOLIDapp.html
+  name: SOLIDapp.Domain.WithPrinciple
+  nameWithType: SOLIDapp.Domain.WithPrinciple
+  fullName: SOLIDapp.Domain.WithPrinciple
+  spec.csharp:
+  - uid: SOLIDapp
+    name: SOLIDapp
+    href: SOLIDapp.html
+  - name: .
+  - uid: SOLIDapp.Domain
+    name: Domain
+    href: SOLIDapp.Domain.html
+  - name: .
+  - uid: SOLIDapp.Domain.WithPrinciple
+    name: WithPrinciple
+    href: SOLIDapp.Domain.WithPrinciple.html
+  spec.vb:
+  - uid: SOLIDapp
+    name: SOLIDapp
+    href: SOLIDapp.html
+  - name: .
+  - uid: SOLIDapp.Domain
+    name: Domain
+    href: SOLIDapp.Domain.html
+  - name: .
+  - uid: SOLIDapp.Domain.WithPrinciple
+    name: WithPrinciple
+    href: SOLIDapp.Domain.WithPrinciple.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SOLIDapp.Domain.WithPrinciple.ICreateDocument
+  commentId: T:SOLIDapp.Domain.WithPrinciple.ICreateDocument
+  parent: SOLIDapp.Domain.WithPrinciple
+  href: SOLIDapp.Domain.WithPrinciple.ICreateDocument.html
+  name: ICreateDocument
+  nameWithType: ICreateDocument
+  fullName: SOLIDapp.Domain.WithPrinciple.ICreateDocument
+- uid: SOLIDapp.Domain.WithPrinciple.IReadDocument
+  commentId: T:SOLIDapp.Domain.WithPrinciple.IReadDocument
+  parent: SOLIDapp.Domain.WithPrinciple
+  href: SOLIDapp.Domain.WithPrinciple.IReadDocument.html
+  name: IReadDocument
+  nameWithType: IReadDocument
+  fullName: SOLIDapp.Domain.WithPrinciple.IReadDocument
+- uid: SOLIDapp.Domain.WithPrinciple.IUpdateDocument
+  commentId: T:SOLIDapp.Domain.WithPrinciple.IUpdateDocument
+  parent: SOLIDapp.Domain.WithPrinciple
+  href: SOLIDapp.Domain.WithPrinciple.IUpdateDocument.html
+  name: IUpdateDocument
+  nameWithType: IUpdateDocument
+  fullName: SOLIDapp.Domain.WithPrinciple.IUpdateDocument
+- uid: SOLIDapp.Domain.WithPrinciple.IDeleteDocument
+  commentId: T:SOLIDapp.Domain.WithPrinciple.IDeleteDocument
+  parent: SOLIDapp.Domain.WithPrinciple
+  href: SOLIDapp.Domain.WithPrinciple.IDeleteDocument.html
+  name: IDeleteDocument
+  nameWithType: IDeleteDocument
+  fullName: SOLIDapp.Domain.WithPrinciple.IDeleteDocument
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SOLIDapp.Domain.WithPrinciple.AdminUser.CreateDocument*
+  commentId: Overload:SOLIDapp.Domain.WithPrinciple.AdminUser.CreateDocument
+  href: SOLIDapp.Domain.WithPrinciple.AdminUser.html#SOLIDapp_Domain_WithPrinciple_AdminUser_CreateDocument_System_String_
+  name: CreateDocument
+  nameWithType: AdminUser.CreateDocument
+  fullName: SOLIDapp.Domain.WithPrinciple.AdminUser.CreateDocument
+- uid: SOLIDapp.Domain.WithPrinciple.ICreateDocument.CreateDocument(System.String)
+  commentId: M:SOLIDapp.Domain.WithPrinciple.ICreateDocument.CreateDocument(System.String)
+  parent: SOLIDapp.Domain.WithPrinciple.ICreateDocument
+  isExternal: true
+  href: SOLIDapp.Domain.WithPrinciple.ICreateDocument.html#SOLIDapp_Domain_WithPrinciple_ICreateDocument_CreateDocument_System_String_
+  name: CreateDocument(string)
+  nameWithType: ICreateDocument.CreateDocument(string)
+  fullName: SOLIDapp.Domain.WithPrinciple.ICreateDocument.CreateDocument(string)
+  nameWithType.vb: ICreateDocument.CreateDocument(String)
+  fullName.vb: SOLIDapp.Domain.WithPrinciple.ICreateDocument.CreateDocument(String)
+  name.vb: CreateDocument(String)
+  spec.csharp:
+  - uid: SOLIDapp.Domain.WithPrinciple.ICreateDocument.CreateDocument(System.String)
+    name: CreateDocument
+    href: SOLIDapp.Domain.WithPrinciple.ICreateDocument.html#SOLIDapp_Domain_WithPrinciple_ICreateDocument_CreateDocument_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SOLIDapp.Domain.WithPrinciple.ICreateDocument.CreateDocument(System.String)
+    name: CreateDocument
+    href: SOLIDapp.Domain.WithPrinciple.ICreateDocument.html#SOLIDapp_Domain_WithPrinciple_ICreateDocument_CreateDocument_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SOLIDapp.Domain.WithPrinciple.AdminUser.ReadDocument*
+  commentId: Overload:SOLIDapp.Domain.WithPrinciple.AdminUser.ReadDocument
+  href: SOLIDapp.Domain.WithPrinciple.AdminUser.html#SOLIDapp_Domain_WithPrinciple_AdminUser_ReadDocument_System_Int32_
+  name: ReadDocument
+  nameWithType: AdminUser.ReadDocument
+  fullName: SOLIDapp.Domain.WithPrinciple.AdminUser.ReadDocument
+- uid: SOLIDapp.Domain.WithPrinciple.IReadDocument.ReadDocument(System.Int32)
+  commentId: M:SOLIDapp.Domain.WithPrinciple.IReadDocument.ReadDocument(System.Int32)
+  parent: SOLIDapp.Domain.WithPrinciple.IReadDocument
+  isExternal: true
+  href: SOLIDapp.Domain.WithPrinciple.IReadDocument.html#SOLIDapp_Domain_WithPrinciple_IReadDocument_ReadDocument_System_Int32_
+  name: ReadDocument(int)
+  nameWithType: IReadDocument.ReadDocument(int)
+  fullName: SOLIDapp.Domain.WithPrinciple.IReadDocument.ReadDocument(int)
+  nameWithType.vb: IReadDocument.ReadDocument(Integer)
+  fullName.vb: SOLIDapp.Domain.WithPrinciple.IReadDocument.ReadDocument(Integer)
+  name.vb: ReadDocument(Integer)
+  spec.csharp:
+  - uid: SOLIDapp.Domain.WithPrinciple.IReadDocument.ReadDocument(System.Int32)
+    name: ReadDocument
+    href: SOLIDapp.Domain.WithPrinciple.IReadDocument.html#SOLIDapp_Domain_WithPrinciple_IReadDocument_ReadDocument_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: SOLIDapp.Domain.WithPrinciple.IReadDocument.ReadDocument(System.Int32)
+    name: ReadDocument
+    href: SOLIDapp.Domain.WithPrinciple.IReadDocument.html#SOLIDapp_Domain_WithPrinciple_IReadDocument_ReadDocument_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SOLIDapp.Domain.WithPrinciple.AdminUser.UpdateDocument*
+  commentId: Overload:SOLIDapp.Domain.WithPrinciple.AdminUser.UpdateDocument
+  href: SOLIDapp.Domain.WithPrinciple.AdminUser.html#SOLIDapp_Domain_WithPrinciple_AdminUser_UpdateDocument_System_Int32_System_String_
+  name: UpdateDocument
+  nameWithType: AdminUser.UpdateDocument
+  fullName: SOLIDapp.Domain.WithPrinciple.AdminUser.UpdateDocument
+- uid: SOLIDapp.Domain.WithPrinciple.IUpdateDocument.UpdateDocument(System.Int32,System.String)
+  commentId: M:SOLIDapp.Domain.WithPrinciple.IUpdateDocument.UpdateDocument(System.Int32,System.String)
+  parent: SOLIDapp.Domain.WithPrinciple.IUpdateDocument
+  isExternal: true
+  href: SOLIDapp.Domain.WithPrinciple.IUpdateDocument.html#SOLIDapp_Domain_WithPrinciple_IUpdateDocument_UpdateDocument_System_Int32_System_String_
+  name: UpdateDocument(int, string)
+  nameWithType: IUpdateDocument.UpdateDocument(int, string)
+  fullName: SOLIDapp.Domain.WithPrinciple.IUpdateDocument.UpdateDocument(int, string)
+  nameWithType.vb: IUpdateDocument.UpdateDocument(Integer, String)
+  fullName.vb: SOLIDapp.Domain.WithPrinciple.IUpdateDocument.UpdateDocument(Integer, String)
+  name.vb: UpdateDocument(Integer, String)
+  spec.csharp:
+  - uid: SOLIDapp.Domain.WithPrinciple.IUpdateDocument.UpdateDocument(System.Int32,System.String)
+    name: UpdateDocument
+    href: SOLIDapp.Domain.WithPrinciple.IUpdateDocument.html#SOLIDapp_Domain_WithPrinciple_IUpdateDocument_UpdateDocument_System_Int32_System_String_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SOLIDapp.Domain.WithPrinciple.IUpdateDocument.UpdateDocument(System.Int32,System.String)
+    name: UpdateDocument
+    href: SOLIDapp.Domain.WithPrinciple.IUpdateDocument.html#SOLIDapp_Domain_WithPrinciple_IUpdateDocument_UpdateDocument_System_Int32_System_String_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SOLIDapp.Domain.WithPrinciple.AdminUser.DeleteDocument*
+  commentId: Overload:SOLIDapp.Domain.WithPrinciple.AdminUser.DeleteDocument
+  href: SOLIDapp.Domain.WithPrinciple.AdminUser.html#SOLIDapp_Domain_WithPrinciple_AdminUser_DeleteDocument_System_Int32_
+  name: DeleteDocument
+  nameWithType: AdminUser.DeleteDocument
+  fullName: SOLIDapp.Domain.WithPrinciple.AdminUser.DeleteDocument
+- uid: SOLIDapp.Domain.WithPrinciple.IDeleteDocument.DeleteDocument(System.Int32)
+  commentId: M:SOLIDapp.Domain.WithPrinciple.IDeleteDocument.DeleteDocument(System.Int32)
+  parent: SOLIDapp.Domain.WithPrinciple.IDeleteDocument
+  isExternal: true
+  href: SOLIDapp.Domain.WithPrinciple.IDeleteDocument.html#SOLIDapp_Domain_WithPrinciple_IDeleteDocument_DeleteDocument_System_Int32_
+  name: DeleteDocument(int)
+  nameWithType: IDeleteDocument.DeleteDocument(int)
+  fullName: SOLIDapp.Domain.WithPrinciple.IDeleteDocument.DeleteDocument(int)
+  nameWithType.vb: IDeleteDocument.DeleteDocument(Integer)
+  fullName.vb: SOLIDapp.Domain.WithPrinciple.IDeleteDocument.DeleteDocument(Integer)
+  name.vb: DeleteDocument(Integer)
+  spec.csharp:
+  - uid: SOLIDapp.Domain.WithPrinciple.IDeleteDocument.DeleteDocument(System.Int32)
+    name: DeleteDocument
+    href: SOLIDapp.Domain.WithPrinciple.IDeleteDocument.html#SOLIDapp_Domain_WithPrinciple_IDeleteDocument_DeleteDocument_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: SOLIDapp.Domain.WithPrinciple.IDeleteDocument.DeleteDocument(System.Int32)
+    name: DeleteDocument
+    href: SOLIDapp.Domain.WithPrinciple.IDeleteDocument.html#SOLIDapp_Domain_WithPrinciple_IDeleteDocument_DeleteDocument_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )

@@ -1,0 +1,460 @@
+### YamlMime:ManagedReference
+items:
+- uid: SOLIDapp.Tests.WithPrinciples
+  commentId: T:SOLIDapp.Tests.WithPrinciples
+  id: WithPrinciples
+  parent: SOLIDapp.Tests
+  children:
+  - SOLIDapp.Tests.WithPrinciples.GivenDependencyInversionPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  - SOLIDapp.Tests.WithPrinciples.GivenInterfaceSegregationPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  - SOLIDapp.Tests.WithPrinciples.GivenLiskovSustitutionPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  - SOLIDapp.Tests.WithPrinciples.GivenOpenClosedPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  langs:
+  - csharp
+  - vb
+  name: WithPrinciples
+  nameWithType: WithPrinciples
+  fullName: SOLIDapp.Tests.WithPrinciples
+  type: Class
+  source:
+    id: WithPrinciples
+    path: C:\SOLIDapp\SOLIDapp.Tests\WithPrinciples.cs
+    startLine: 4
+  assemblies:
+  - SOLIDapp.Tests
+  namespace: SOLIDapp.Tests
+  syntax:
+    content: >-
+      [TestClass]
+
+      public class WithPrinciples
+    content.vb: >-
+      <TestClass>
+
+      Public Class WithPrinciples
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: SOLIDapp.Tests.WithPrinciples.GivenOpenClosedPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  commentId: M:SOLIDapp.Tests.WithPrinciples.GivenOpenClosedPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  id: GivenOpenClosedPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  parent: SOLIDapp.Tests.WithPrinciples
+  langs:
+  - csharp
+  - vb
+  name: GivenOpenClosedPrincipleExample_ExecuteWithPrinciple_ResultSuccess()
+  nameWithType: WithPrinciples.GivenOpenClosedPrincipleExample_ExecuteWithPrinciple_ResultSuccess()
+  fullName: SOLIDapp.Tests.WithPrinciples.GivenOpenClosedPrincipleExample_ExecuteWithPrinciple_ResultSuccess()
+  type: Method
+  source:
+    id: GivenOpenClosedPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+    path: C:\SOLIDapp\SOLIDapp.Tests\WithPrinciples.cs
+    startLine: 8
+  assemblies:
+  - SOLIDapp.Tests
+  namespace: SOLIDapp.Tests
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void GivenOpenClosedPrincipleExample_ExecuteWithPrinciple_ResultSuccess()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub GivenOpenClosedPrincipleExample_ExecuteWithPrinciple_ResultSuccess()
+  overload: SOLIDapp.Tests.WithPrinciples.GivenOpenClosedPrincipleExample_ExecuteWithPrinciple_ResultSuccess*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: SOLIDapp.Tests.WithPrinciples.GivenLiskovSustitutionPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  commentId: M:SOLIDapp.Tests.WithPrinciples.GivenLiskovSustitutionPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  id: GivenLiskovSustitutionPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  parent: SOLIDapp.Tests.WithPrinciples
+  langs:
+  - csharp
+  - vb
+  name: GivenLiskovSustitutionPrincipleExample_ExecuteWithPrinciple_ResultSuccess()
+  nameWithType: WithPrinciples.GivenLiskovSustitutionPrincipleExample_ExecuteWithPrinciple_ResultSuccess()
+  fullName: SOLIDapp.Tests.WithPrinciples.GivenLiskovSustitutionPrincipleExample_ExecuteWithPrinciple_ResultSuccess()
+  type: Method
+  source:
+    id: GivenLiskovSustitutionPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+    path: C:\SOLIDapp\SOLIDapp.Tests\WithPrinciples.cs
+    startLine: 23
+  assemblies:
+  - SOLIDapp.Tests
+  namespace: SOLIDapp.Tests
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void GivenLiskovSustitutionPrincipleExample_ExecuteWithPrinciple_ResultSuccess()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub GivenLiskovSustitutionPrincipleExample_ExecuteWithPrinciple_ResultSuccess()
+  overload: SOLIDapp.Tests.WithPrinciples.GivenLiskovSustitutionPrincipleExample_ExecuteWithPrinciple_ResultSuccess*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: SOLIDapp.Tests.WithPrinciples.GivenInterfaceSegregationPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  commentId: M:SOLIDapp.Tests.WithPrinciples.GivenInterfaceSegregationPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  id: GivenInterfaceSegregationPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  parent: SOLIDapp.Tests.WithPrinciples
+  langs:
+  - csharp
+  - vb
+  name: GivenInterfaceSegregationPrincipleExample_ExecuteWithPrinciple_ResultSuccess()
+  nameWithType: WithPrinciples.GivenInterfaceSegregationPrincipleExample_ExecuteWithPrinciple_ResultSuccess()
+  fullName: SOLIDapp.Tests.WithPrinciples.GivenInterfaceSegregationPrincipleExample_ExecuteWithPrinciple_ResultSuccess()
+  type: Method
+  source:
+    id: GivenInterfaceSegregationPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+    path: C:\SOLIDapp\SOLIDapp.Tests\WithPrinciples.cs
+    startLine: 40
+  assemblies:
+  - SOLIDapp.Tests
+  namespace: SOLIDapp.Tests
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void GivenInterfaceSegregationPrincipleExample_ExecuteWithPrinciple_ResultSuccess()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub GivenInterfaceSegregationPrincipleExample_ExecuteWithPrinciple_ResultSuccess()
+  overload: SOLIDapp.Tests.WithPrinciples.GivenInterfaceSegregationPrincipleExample_ExecuteWithPrinciple_ResultSuccess*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: SOLIDapp.Tests.WithPrinciples.GivenDependencyInversionPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  commentId: M:SOLIDapp.Tests.WithPrinciples.GivenDependencyInversionPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  id: GivenDependencyInversionPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  parent: SOLIDapp.Tests.WithPrinciples
+  langs:
+  - csharp
+  - vb
+  name: GivenDependencyInversionPrincipleExample_ExecuteWithPrinciple_ResultSuccess()
+  nameWithType: WithPrinciples.GivenDependencyInversionPrincipleExample_ExecuteWithPrinciple_ResultSuccess()
+  fullName: SOLIDapp.Tests.WithPrinciples.GivenDependencyInversionPrincipleExample_ExecuteWithPrinciple_ResultSuccess()
+  type: Method
+  source:
+    id: GivenDependencyInversionPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+    path: C:\SOLIDapp\SOLIDapp.Tests\WithPrinciples.cs
+    startLine: 56
+  assemblies:
+  - SOLIDapp.Tests
+  namespace: SOLIDapp.Tests
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void GivenDependencyInversionPrincipleExample_ExecuteWithPrinciple_ResultSuccess()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub GivenDependencyInversionPrincipleExample_ExecuteWithPrinciple_ResultSuccess()
+  overload: SOLIDapp.Tests.WithPrinciples.GivenDependencyInversionPrincipleExample_ExecuteWithPrinciple_ResultSuccess*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: SOLIDapp.Tests
+  commentId: N:SOLIDapp.Tests
+  href: SOLIDapp.html
+  name: SOLIDapp.Tests
+  nameWithType: SOLIDapp.Tests
+  fullName: SOLIDapp.Tests
+  spec.csharp:
+  - uid: SOLIDapp
+    name: SOLIDapp
+    href: SOLIDapp.html
+  - name: .
+  - uid: SOLIDapp.Tests
+    name: Tests
+    href: SOLIDapp.Tests.html
+  spec.vb:
+  - uid: SOLIDapp
+    name: SOLIDapp
+    href: SOLIDapp.html
+  - name: .
+  - uid: SOLIDapp.Tests
+    name: Tests
+    href: SOLIDapp.Tests.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SOLIDapp.Tests.WithPrinciples.GivenOpenClosedPrincipleExample_ExecuteWithPrinciple_ResultSuccess*
+  commentId: Overload:SOLIDapp.Tests.WithPrinciples.GivenOpenClosedPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  href: SOLIDapp.Tests.WithPrinciples.html#SOLIDapp_Tests_WithPrinciples_GivenOpenClosedPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  name: GivenOpenClosedPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  nameWithType: WithPrinciples.GivenOpenClosedPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  fullName: SOLIDapp.Tests.WithPrinciples.GivenOpenClosedPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+- uid: SOLIDapp.Tests.WithPrinciples.GivenLiskovSustitutionPrincipleExample_ExecuteWithPrinciple_ResultSuccess*
+  commentId: Overload:SOLIDapp.Tests.WithPrinciples.GivenLiskovSustitutionPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  href: SOLIDapp.Tests.WithPrinciples.html#SOLIDapp_Tests_WithPrinciples_GivenLiskovSustitutionPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  name: GivenLiskovSustitutionPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  nameWithType: WithPrinciples.GivenLiskovSustitutionPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  fullName: SOLIDapp.Tests.WithPrinciples.GivenLiskovSustitutionPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+- uid: SOLIDapp.Tests.WithPrinciples.GivenInterfaceSegregationPrincipleExample_ExecuteWithPrinciple_ResultSuccess*
+  commentId: Overload:SOLIDapp.Tests.WithPrinciples.GivenInterfaceSegregationPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  href: SOLIDapp.Tests.WithPrinciples.html#SOLIDapp_Tests_WithPrinciples_GivenInterfaceSegregationPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  name: GivenInterfaceSegregationPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  nameWithType: WithPrinciples.GivenInterfaceSegregationPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  fullName: SOLIDapp.Tests.WithPrinciples.GivenInterfaceSegregationPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+- uid: SOLIDapp.Tests.WithPrinciples.GivenDependencyInversionPrincipleExample_ExecuteWithPrinciple_ResultSuccess*
+  commentId: Overload:SOLIDapp.Tests.WithPrinciples.GivenDependencyInversionPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  href: SOLIDapp.Tests.WithPrinciples.html#SOLIDapp_Tests_WithPrinciples_GivenDependencyInversionPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  name: GivenDependencyInversionPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  nameWithType: WithPrinciples.GivenDependencyInversionPrincipleExample_ExecuteWithPrinciple_ResultSuccess
+  fullName: SOLIDapp.Tests.WithPrinciples.GivenDependencyInversionPrincipleExample_ExecuteWithPrinciple_ResultSuccess

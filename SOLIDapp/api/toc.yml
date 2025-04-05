@@ -1,0 +1,115 @@
+### YamlMime:TableOfContent
+items:
+- uid: SOLIDapp.Domain
+  name: SOLIDapp.Domain
+  type: Namespace
+  items:
+  - uid: SOLIDapp.Domain.Class1
+    name: Class1
+    type: Class
+- uid: SOLIDapp.Domain.WithOutPrinciple
+  name: SOLIDapp.Domain.WithOutPrinciple
+  type: Namespace
+  items:
+  - uid: SOLIDapp.Domain.WithOutPrinciple.Account
+    name: Account
+    type: Class
+  - uid: SOLIDapp.Domain.WithOutPrinciple.BankAccount
+    name: BankAccount
+    type: Class
+  - uid: SOLIDapp.Domain.WithOutPrinciple.CreditCard
+    name: CreditCard
+    type: Class
+  - uid: SOLIDapp.Domain.WithOutPrinciple.FixedTermDepositAccount
+    name: FixedTermDepositAccount
+    type: Class
+  - uid: SOLIDapp.Domain.WithOutPrinciple.IDocumentManagement
+    name: IDocumentManagement
+    type: Interface
+  - uid: SOLIDapp.Domain.WithOutPrinciple.Invoice
+    name: Invoice
+    type: Class
+  - uid: SOLIDapp.Domain.WithOutPrinciple.InvoiceType
+    name: InvoiceType
+    type: Enum
+  - uid: SOLIDapp.Domain.WithOutPrinciple.PaymentProcessor
+    name: PaymentProcessor
+    type: Class
+  - uid: SOLIDapp.Domain.WithOutPrinciple.ReadOnlyUser
+    name: ReadOnlyUser
+    type: Class
+- uid: SOLIDapp.Domain.WithPrinciple
+  name: SOLIDapp.Domain.WithPrinciple
+  type: Namespace
+  items:
+  - uid: SOLIDapp.Domain.WithPrinciple.Account
+    name: Account
+    type: Class
+  - uid: SOLIDapp.Domain.WithPrinciple.AdminUser
+    name: AdminUser
+    type: Class
+  - uid: SOLIDapp.Domain.WithPrinciple.BankAccount
+    name: BankAccount
+    type: Class
+  - uid: SOLIDapp.Domain.WithPrinciple.CreditCard
+    name: CreditCard
+    type: Class
+  - uid: SOLIDapp.Domain.WithPrinciple.FinalInvoice
+    name: FinalInvoice
+    type: Class
+  - uid: SOLIDapp.Domain.WithPrinciple.FixedTermDepositAccount
+    name: FixedTermDepositAccount
+    type: Class
+  - uid: SOLIDapp.Domain.WithPrinciple.ICreateDocument
+    name: ICreateDocument
+    type: Interface
+  - uid: SOLIDapp.Domain.WithPrinciple.IDeleteDocument
+    name: IDeleteDocument
+    type: Interface
+  - uid: SOLIDapp.Domain.WithPrinciple.IPaymentMethod
+    name: IPaymentMethod
+    type: Interface
+  - uid: SOLIDapp.Domain.WithPrinciple.IReadDocument
+    name: IReadDocument
+    type: Interface
+  - uid: SOLIDapp.Domain.WithPrinciple.IUpdateDocument
+    name: IUpdateDocument
+    type: Interface
+  - uid: SOLIDapp.Domain.WithPrinciple.Invoice
+    name: Invoice
+    type: Class
+  - uid: SOLIDapp.Domain.WithPrinciple.PayPal
+    name: PayPal
+    type: Class
+  - uid: SOLIDapp.Domain.WithPrinciple.PaymentProcessor
+    name: PaymentProcessor
+    type: Class
+  - uid: SOLIDapp.Domain.WithPrinciple.ProposedInvoice
+    name: ProposedInvoice
+    type: Class
+  - uid: SOLIDapp.Domain.WithPrinciple.ReadOnlyUser
+    name: ReadOnlyUser
+    type: Class
+  - uid: SOLIDapp.Domain.WithPrinciple.RecurringInvoice
+    name: RecurringInvoice
+    type: Class
+  - uid: SOLIDapp.Domain.WithPrinciple.RegularAccount
+    name: RegularAccount
+    type: Class
+  - uid: SOLIDapp.Domain.WithPrinciple.StatementPrinter
+    name: StatementPrinter
+    type: Class
+- uid: SOLIDapp.Tests
+  name: SOLIDapp.Tests
+  type: Namespace
+  items:
+  - uid: SOLIDapp.Tests.UnitTest1
+    name: UnitTest1
+    type: Class
+  - uid: SOLIDapp.Tests.WithOutPrinciples
+    name: WithOutPrinciples
+    type: Class
+  - uid: SOLIDapp.Tests.WithPrinciples
+    name: WithPrinciples
+    type: Class
+memberLayout: SamePage

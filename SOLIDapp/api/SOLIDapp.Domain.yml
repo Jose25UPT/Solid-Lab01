@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SOLIDapp.Domain
+  commentId: N:SOLIDapp.Domain
+  id: SOLIDapp.Domain
+  children:
+  - SOLIDapp.Domain.Class1
+  langs:
+  - csharp
+  - vb
+  name: SOLIDapp.Domain
+  nameWithType: SOLIDapp.Domain
+  fullName: SOLIDapp.Domain
+  type: Namespace
+  assemblies:
+  - SOLIDapp.Domain
+references:
+- uid: SOLIDapp.Domain.Class1
+  commentId: T:SOLIDapp.Domain.Class1
+  href: SOLIDapp.Domain.Class1.html
+  name: Class1
+  nameWithType: Class1
+  fullName: SOLIDapp.Domain.Class1
